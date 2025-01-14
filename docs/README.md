@@ -1,22 +1,22 @@
 # TapTrack Documentation
 
 ## Directory:
-- [API](https://lazy-day-tech.github.io/TapTrackDocs/API) (For API Integrations)
+- API (For API Integrations)
   - [Airtable](https://lazy-day-tech.github.io/TapTrackDocs/API/Airtable)
   - [Data](https://lazy-day-tech.github.io/TapTrackDocs/API/Data)
-- [Handlers](https://lazy-day-tech.github.io/TapTrackDocs/Handlers)
+- Handlers
   - [DateTimeHandlers](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/DateTimeHandlers)
   - [RaftMapHandlers](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/RaftMap)
   - [Data](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/Data)
-- [Development](https://lazy-day-tech.github.io/TapTrackDocs/Development) (For dev docs)
+- Development (For dev docs)
   - [Logging](https://lazy-day-tech.github.io/TapTrackDocs/Development/Logging)
-- [iOS](https://lazy-day-tech.github.io/TapTrackDocs/iOS) (For iOS native implementations)
+- iOS (For iOS native implementations)
   - [NFC](https://lazy-day-tech.github.io/TapTrackDocs/iOS/NFC)
-- [UI](https://lazy-day-tech.github.io/TapTrackDocs/UI)
-  - [Components](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components)
+- UI
+  - Components
     - [ProgressIndicators](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components/ProgressIndicators)
     - [ReportWidgets](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components/ReportWidgets)
-  - [Dialogs](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs)
+  - Dialogs
     - [BookingRecordView](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/BookingRecordView)
-  - [Pages](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages)
+  - Pages
     - [ReportPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportPage)
