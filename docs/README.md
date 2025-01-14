@@ -1,6 +1,4 @@
 # TapTrack Documentation
-This is the base directory for doccumentation. Doccumentation is seperated into 4 main categories
-
 
 ## Directory:
 - API (For API Integrations)
