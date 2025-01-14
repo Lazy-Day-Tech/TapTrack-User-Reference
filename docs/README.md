@@ -12,6 +12,8 @@
   - [Logging](https://lazy-day-tech.github.io/TapTrackDocs/Development/Logging)
 - iOS (For iOS native implementations)
   - [NFC](https://lazy-day-tech.github.io/TapTrackDocs/iOS/NFC)
+- Android (For Android Native implementations)
+  - [NFC](https://lazy-day-tech.github.io/TapTrackDocs/Android/NFC)
 - UI
   - Components
     - [ProgressIndicators](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components/ProgressIndicators)
@@ -19,5 +21,6 @@
     - [DropdownTextField](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components/DropdownTextField)
   - Dialogs
     - [BookingRecordView](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/BookingRecordView)
+    - [RepairRecordView](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/RepairRecordView)
   - Pages
     - [ReportPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportPage)
