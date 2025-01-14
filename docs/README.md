@@ -4,7 +4,7 @@ This is the base directory for doccumentation. Doccumentation is seperated into 
 
 ## Directory:
 - API (For API Integrations)
-  - [Airtable](/docs/API/Airtable.md)
-  - [Data](/docs/API/Data.md)
+  - [Airtable](https://lazy-day-tech.github.io/TapTrackDocs/docs/API/Airtable.md)
+  - [Data](https://lazy-day-tech.github.io/TapTrackDocs/docs/API/Data.md)
 - Development (For dev docs)
-  - [Logging](/docs/Development/Logging.md)
+  - [Logging](https://lazy-day-tech.github.io/TapTrackDocs/docs/Development/Logging.md)
