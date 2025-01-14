@@ -16,6 +16,7 @@
   - Components
     - [ProgressIndicators](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components/ProgressIndicators)
     - [ReportWidgets](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components/ReportWidgets)
+    - [DropdownTextField](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components/DropdownTextField)
   - Dialogs
     - [BookingRecordView](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/BookingRecordView)
   - Pages
