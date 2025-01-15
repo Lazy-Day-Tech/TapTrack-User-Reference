@@ -82,3 +82,21 @@ This workflow automates building and deploying an iOS app to TestFlight using Xc
     - Upload to TestFlight:
         - Uploads the exported build to TestFlight using credentials for App Store Connect.
 
+# Workflow 4: iOS Build (for testing)
+
+This workflow automates building Xcode Cloud when a new pull request is made to either `1.x` branches or `main`. This speeds up development by ensuring there is no compolation errors on the iOS native platform when making any significant pull requests. 
+## Trigger
+- Pull Request: Activated when a new pull request is made to either `1.x` or `main` branches.
+
+### Jobs
+- Runs on: macos-latest
+- Steps:
+    - Checkout Code:
+        - Uses a GitHub Action to clone the repository for building the iOS app.
+    - Set Up Xcode Environment:
+        - Configures the environment with the required Xcode version for the build process.
+    - Install Dependencies:
+        - Installs necessary project dependencies (e.g., CocoaPods) if applicable.
+    - Build the iOS App:
+        - Builds the iOS app.
+    
