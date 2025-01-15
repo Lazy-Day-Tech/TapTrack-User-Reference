@@ -32,22 +32,6 @@ The TapTrack API library is designed for ease of use with Airtable and similar A
 - Utilities for managing API responses and exceptions.
 - Functions for CRUD operations on Airtable resources such as bookings, repairs, and raft maps.
 
----
-
-## Usage
-
-To use the library, ensure you have the following dependencies in your project:
-
-```kotlin
-implementation("io.ktor:ktor-client-core:<version>")
-implementation("io.ktor:ktor-client-json:<version>")
-implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:<version>")
-implementation("co.touchlab:kermit:<version>")
-```
-
-Replace `<version>` with the appropriate versions for your project.
-
----
 
 ## Functions
 

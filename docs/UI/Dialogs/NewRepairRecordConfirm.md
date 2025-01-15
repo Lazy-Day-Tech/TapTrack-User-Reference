@@ -79,7 +79,6 @@ The "Go Back" button triggers the onDismiss callback, allowing the user to cance
 val nfcManager = NfcManager(context) // Initialize NfcManager
 
 NewRepairRecordConfirm(
-    onCreate1 = Unit, // Placeholder for future use
     onCreate = { currentDate -> 
         // Handle the creation of the new repair record
     },
