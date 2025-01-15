@@ -9,6 +9,7 @@
   - [DataHandler](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/Data)
 - Development (For dev docs)
   - [Logging](https://lazy-day-tech.github.io/TapTrackDocs/Development/Logging)
+  - [CI/CD Workflow](https://lazy-day-tech.github.io/TapTrackDocs/Development/CICD)
 - iOS (For iOS native implementations)
   - [NFC](https://lazy-day-tech.github.io/TapTrackDocs/iOS/NFC)
 - Android (For Android Native implementations)
