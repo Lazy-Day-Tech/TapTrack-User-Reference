@@ -41,8 +41,6 @@ Access other pages of documentation from here
     - [RepairMenu](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/RepairMenu)
     - [Navigation](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/Navigation)
 
-## Roadmap
-Keep up to date with the project [here](https://github.com/orgs/Lazy-Day-Tech/projects/2)
 
 ## Getting Started
 
