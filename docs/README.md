@@ -1,5 +1,3 @@
-# TapTrack Documentation
-
 ## Directory:
 - API (For API Integrations)
   - [Airtable](https://lazy-day-tech.github.io/TapTrackDocs/API/Airtable)
