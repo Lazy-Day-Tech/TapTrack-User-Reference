@@ -222,8 +222,3 @@ The shared `HttpClient` is configured with retry logic to handle transient failu
 
 - **Maximum Retries**: 3
 - **Exponential Delay**: Starts at 1.0s with a maximum delay of 5000ms.
-
----
-
-For more details, visit the [GitHub Repository](https://github.com/Lazy-Day-Tech/LDClient).
-

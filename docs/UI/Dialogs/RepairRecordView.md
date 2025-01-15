@@ -3,33 +3,33 @@
 
 RepairRecordViewV2 is a composable function used to display and manage repair records in a dialog format. It allows users to view the details of a repair record, modify it (if not already marked as "Repaired"), and take actions such as confirming changes, deleting the record, or marking it as repaired. It also integrates with NFC functionality to scan and capture NFC tag data during the process.
 ### Key Features
-- Editable Repair Record Fields: Allows modification of repair notes and status, depending on whether the record is already marked as "Repaired".
-- NFC Integration: Scans NFC tags and captures the data associated with a repair record.
-- Record Update and Deletion: Supports updating the repair record’s status and notes, or deleting the record.
-- Confirmation Dialogs: Provides confirmation dialogs before deleting or marking a record as repaired.
-- Coroutines and Background Operations: Uses Kotlin coroutines for asynchronous operations like updating and deleting records, ensuring smooth user interactions.
+- **Editable Repair Record Fields**: Allows modification of repair notes and status, depending on whether the record is already marked as "Repaired".
+- **NFC Integration**: Scans NFC tags and captures the data associated with a repair record.
+- **Record Update and Deletion**: Supports updating the repair record’s status and notes, or deleting the record.
+- **Confirmation Dialogs**: Provides confirmation dialogs before deleting or marking a record as repaired.
+- **Coroutines and Background Operations**: Uses Kotlin coroutines for asynchronous operations like updating and deleting records, ensuring smooth user interactions.
 
 ### Parameters
-- repairRecord: RepairRecord
-    - Type: RepairRecord
+- `repairRecord: RepairRecord`
+    - **Type**: RepairRecord
     - The repair record object that contains the details of the repair, including status, notes, and dates.
-- onDismiss: () -> Unit
-    - Type: () -> Unit
+- `onDismiss: () -> Unit`
+    - **Type**: () -> Unit
     - A callback to dismiss the dialog, typically used to close the dialog when the user cancels or dismisses it.
-- onConfirm: () -> Unit
-    - Type: () -> Unit
+- `onConfirm`: () -> Unit
+    - **Type**: () -> Unit
     - A callback to be triggered when the user confirms the changes made in the dialog, such as updating the record or marking it as repaired.
-- nfcManager: NfcManager
-    - Type: NfcManager
+- `nfcManager: NfcManager`
+    - **Type**: NfcManager
     - The NFC manager object used to handle NFC tag scanning. It listens for NFC tag events and captures payload data.
 - State Variables
-    - repairState: Stores the current repair record state. It's updated when the user modifies the repair notes or status.
-    - nfcActive: Tracks whether NFC is currently active.
-    - nfcPayload: Holds the NFC tag data when a tag is scanned.
-    - repairNote: Holds the repair notes that the user can modify.
-    - selectedStatusOption: Stores the selected status for the repair record (e.g., "Broken", "In-Repair", "Repaired").
-    - isEditable: A boolean value indicating whether the repair record is editable (i.e., it is not marked as "Repaired").
-    - showModifyRental, showDeleteRecordConfiration, showConfirmRepaired: States for controlling visibility of confirmation dialogs.
+    - **repairState**: Stores the current repair record state. It's updated when the user modifies the repair notes or status.
+    - **nfcActive**: Tracks whether NFC is currently active.
+    - **nfcPayload**: Holds the NFC tag data when a tag is scanned.
+    - **repairNote**: Holds the repair notes that the user can modify.
+    - **selectedStatusOption**: Stores the selected status for the repair record (e.g., "Broken", "In-Repair", "Repaired").
+    - **isEditable**: A boolean value indicating whether the repair record is editable (i.e., it is not marked as "Repaired").
+    - **showModifyRental**, showDeleteRecordConfiration, showConfirmRepaired: States for controlling visibility of confirmation dialogs.
 
 ## UI Elements
 1. Title Bar with Repair Type and Raft Number

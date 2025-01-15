@@ -90,6 +90,6 @@ CheckOutPage(
 
 ## Behavior:
 - **NFC Scan**: When the user taps the FAB, an NFC scan is initiated.
-- Booking Matching: If a valid NFC tag is scanned and matches a booking, the checkout success dialog is shown.
+- **Booking Matching**: If a valid NFC tag is scanned and matches a booking, the checkout success dialog is shown.
 - **Error Handling**: Invalid or uninitialized tags trigger corresponding error dialogs.
 - **Manual Input**: The user can manually search for a booking by navigating to the manual input screen.

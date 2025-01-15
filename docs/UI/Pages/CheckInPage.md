@@ -15,7 +15,7 @@ CheckInPage is a composable function that represents a user interface (UI) for c
 - `navController: NavController?`
     - **Type**: NavController?
     - **Description**: The navigation controller used for managing screen navigation. It's used to navigate to other pages, such as the "ModeSelectionPage" or "ManualInput/CheckInPage".
-- n`fcManager: NfcManager`
+- `nfcManager: NfcManager`
     - **Type**: NfcManager
     - **Description**: An instance of NfcManager for handling NFC interactions. It scans NFC tags and triggers corresponding actions when a tag is detected.
 

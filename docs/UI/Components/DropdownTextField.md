@@ -3,11 +3,11 @@
 
 The DropdownTextField is a custom composable component that combines a text field with a dropdown menu. It allows users to select an option from a list of predefined values, while the selected option is displayed inside the text field. The component is designed for use in Android applications that leverage Jetpack Compose.
 ## Features
-- Selectable options: Display a list of options to the user in a dropdown menu.
-- Pre-selected option: The dropdown shows the currently selected option in the text field.
-- Customizable appearance: Supports custom label text, colors, and styles.
-- Enabled/Disabled states: The component can be disabled to prevent interaction.
-- Focus behavior: Opens the dropdown menu when the text field is focused.
+- **Selectable options**: Display a list of options to the user in a dropdown menu.
+- **Pre-selected option**: The dropdown shows the currently selected option in the text field.
+- **Customizable appearance**: Supports custom label text, colors, and styles.
+- **Enabled/Disabled states**: The component can be disabled to prevent interaction.
+- **Focus behavior**: Opens the dropdown menu when the text field is focused.
 
 ## Parameters
 - `options (List<String>)`:

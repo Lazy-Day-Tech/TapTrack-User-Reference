@@ -143,5 +143,5 @@ This example demonstrates deserializing a JSON response into a `BookingResponse`
 
 ## Conclusion
 
-This documentation provides an overview of the data classes used for managing bookings, repairs, and raft maps. For further details, refer to the API specifications or project documentation.
+This documentation provides an overview of the data classes used for managing bookings, repairs, and raft maps. For further details, refer to the API docs in Postman
 
