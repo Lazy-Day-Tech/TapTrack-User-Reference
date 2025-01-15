@@ -1,5 +1,8 @@
 # OpenCalgary
 
+```curl
+curl --location 'https://data.calgary.ca/resource/5fdg-ifgr.json?station_number=05BH004&%24order=timestamp%20DESC&%24limit=1'
+```
 
 ## fetchStationData
 
