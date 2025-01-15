@@ -50,7 +50,7 @@ Stops the NFC scan by disabling the NFC reader mode.
 Handles the detected NFC tag, reads the NDEF message, and emits the payload of the tag.
 
 ### Parameters:
-- tag — The detected Tag object, representing the scanned NFC tag.
+- **tag** — The detected Tag object, representing the scanned NFC tag.
 
 - Behavior:
     - The method attempts to read the NDEF message from the NFC tag. If the message is valid, it extracts the payload (if available) and emits it via the _tagData flow.
