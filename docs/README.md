@@ -7,6 +7,7 @@
   - [iOS](#ios)
 
 ## Directory:
+Access other pages of documentation from here
 - API 
   - [Airtable](https://lazy-day-tech.github.io/TapTrackDocs/API/Airtable)
   - [Data](https://lazy-day-tech.github.io/TapTrackDocs/API/Data)
@@ -37,6 +38,7 @@
     - [CheckInPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/CheckInPage)
     - [CheckOutPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/CheckOutPage)
     - [RepairMenu](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/RepairMenu)
+    - [Navigation](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/Navigation)
 
 ## Getting Started
 
@@ -90,8 +92,8 @@ Requires internet access
 ```
 ### iOS
 ```plist
-Used for NFC Check-In/Check-Out/Repair Management
-<key>NFCReaderUsageDescription</key>
+  Used for NFC Check-In/Check-Out/Repair Management
+  <key>NFCReaderUsageDescription</key>
 	<string>Needed for raft interaction</string>
   
   Used for QR code Check-In process
