@@ -24,11 +24,13 @@ This function resides in the `handlers` package of the `org.lazyday.ldclient` pr
 
 2. **Priority Mapping:**
    - Assigns a numerical priority to each rental item:
-     - `"12-person raft"`: Priority 6
-     - `"10-person raft"`: Priority 5
-     - `"8-person raft"`: Priority 4
-     - `"6-person raft"`: Priority 3
-     - `"4-person raft"`: Priority 2
+     - `"12-person raft"`: Priority 8
+     - `"10-person raft"`: Priority 7
+     - `"8-person raft"`: Priority 6
+     - `"6-person raft"`: Priority 5
+     - `"4-person raft"`: Priority 4
+     - `"Kayak (Dual)"`: Priority 3 **(In testing)**
+     - `"Kayak (Solo)"`: Priority 2 **(In testing)**
      - `"bowyak"`: Priority 1
      - Default: Priority 0
 
