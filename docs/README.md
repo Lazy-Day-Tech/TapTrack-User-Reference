@@ -39,6 +39,7 @@ Access other pages of documentation from here
     - [CheckInPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/CheckInPage)
     - [CheckOutPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/CheckOutPage)
     - [RepairMenu](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/RepairMenu)
+    - [ManualInput](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ManualInput)
     - [Navigation](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/Navigation)
 
 

@@ -4,12 +4,13 @@
 
 BookingRecordView is a @Composable function designed to display detailed information about a booking record and allow the user to perform actions such as checking in or checking out the booking. It includes several UI components that display booking details, rental information, waivers, and booking notes. The view also incorporates NFC scanning functionality for checking in bookings, with the status of the booking being updated accordingly.
 ### Key Features:
-- Displays booking details such as name, phone number, booking time, rentals, waivers, and notes.
-- Supports the ability to check in and check out bookings.
-- Utilizes NFC scanning to register check-ins.
-- Allows users to modify booking notes.
-- Dynamically enables/disables check-in and check-out buttons based on booking status.
-- Displays an informative dialog with actionable buttons.
+- **Booking Details Display:** Shows organizer's name, formatted phone number, booking date and time, associated rentals, signed waivers, and editable booking notes.
+- **Check-In and Check-Out Functionality:**
+    - **Check-In Mode:** Allows users to scan an NFC tag to check in the booking, updating the status to "Checked-In" and recording the start time.
+    - **Check-Out Mode:** Enables users to confirm the check-out, updating the status to "Returned" and recording the end time.
+- **Dynamic Button States**: The availability of check-in and check-out buttons adjusts based on the current booking status to prevent redundant actions.
+- **NFC Integration:** Initiates NFC scanning upon user action in check-in mode, associating the scanned tag ID with the booking and updating its status accordingly.
+- **Manual Check-In:** Allows users to manually enter raft numbers to get its according assigned NFC UUID in the raftMap if NFC scan fails
 
 ## Parameters
 
@@ -56,7 +57,7 @@ The dialog shows various details about the booking, such as:
 The dialog allows the user to modify the booking notes. Upon clicking the edit button, the user can modify the notes in a new dialog.
 
 ### NFC Scanning
-NFC scanning is initiated when the user clicks on the Check-In button in check-in mode. Once an NFC tag is scanned, the booking is updated with the tag ID, and the booking status is changed to "Checked-In."
+NFC scanning is initiated when the user clicks on the Check-In button in check-in mode. Once an NFC tag is scanned, the booking is updated with the tag ID, and the booking status is changed to "Checked-In.". If in Check-In mode and the NFC scan fails, it will prompt the user to manually enter the `RaftNumber` which is then translated to its respecitve assigned `NFC_UUID` assigned in the RaftMap.
 
 ### Confirmation
 The Confirm button updates the booking status to either "Checked-In" or "Returned," depending on the mode (check-in or check-out).
@@ -73,6 +74,7 @@ The following UI components are used to create the booking record view:
 - **Spacer**: Adds spacing between UI elements.
 - **Icon**: Displays an icon (e.g., for the edit button).
 - **Row and Column**: Layout components to arrange UI elements in a horizontal or vertical manner.
+- **BasicSnackbar**: Custom UI component used to warn user if both NFC scan and ManualInput fails
 
 ## Helper Functions Used:
 - `formatPhoneNumber`: Formats the phone number into a human-readable format.

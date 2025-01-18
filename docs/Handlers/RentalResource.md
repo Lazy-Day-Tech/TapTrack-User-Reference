@@ -29,8 +29,8 @@ This function resides in the `handlers` package of the `org.lazyday.ldclient` pr
      - `"8-person raft"`: Priority 6
      - `"6-person raft"`: Priority 5
      - `"4-person raft"`: Priority 4
-     - `"Kayak (Dual)"`: Priority 3 **(In testing)**
-     - `"Kayak (Solo)"`: Priority 2 **(In testing)**
+     - `"Kayak (Dual)"`: Priority 3 
+     - `"Kayak (Solo)"`: Priority 2 
      - `"bowyak"`: Priority 1
      - Default: Priority 0
 
