@@ -51,6 +51,3 @@ ErrorDialogue
 StandardCircularProgressIndicator
 
 - Displays a loading indicator while booking records are being fetched.
-Usage
-
-To use the ManualInputV2 composable, include it in a Jetpack Compose UI hierarchy and provide the necessary parameters. The UI will manage the state and display a filtered list of booking records based on the user's input and selected filters.
