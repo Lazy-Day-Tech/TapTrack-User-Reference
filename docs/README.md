@@ -32,6 +32,7 @@ Access other pages of documentation from here
   - Dialogs
     - [BookingRecordView](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/BookingRecordView)
     - [RepairRecordView](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/RepairRecordView)
+    - [NewRepairRecord](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/NewRepairRecord)
     - [NewRepairRecordConfirm](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/NewRepairRecordConfirm)
     - [BasicDialog](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/BasicDialog)
   - Pages
