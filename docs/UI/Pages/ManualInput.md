@@ -30,7 +30,7 @@ Several filters are defined to filter the booking records based on their status,
 - `filterCustom`: Filter for custom date ranges.
 - `filterType4`, `filterType6`, `filterType8`, `filterType10`, `filterType12`:
 Filters for different types of rafts.
-- `filterTypeBowYak`, `filterTypeKayak`, `filterTypeLifeJacket`: Filters for different types of equipment.
+- `filterTypeBowYak`, `filterTypeKayak` (Includes both solo and dual), `filterTypeLifeJacket`: Filters for different types of equipment.
 
 ## UI Components
 - **Search Bar**: Provides a search bar for filtering booking records by search query.
