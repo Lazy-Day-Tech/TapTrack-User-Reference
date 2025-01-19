@@ -49,6 +49,7 @@ The ReportPage component aggregates and displays the following:
 
 - **Fetching Bookings**
     - The app retrieves today's rafting bookings, filtering the data based on the current day to ensure that only relevant bookings are shown.
+    - Will only get dates based on `bookingDateTime`
 
 - **River Data**
     - The page fetches the current river level, which is displayed at the top of the screen.
