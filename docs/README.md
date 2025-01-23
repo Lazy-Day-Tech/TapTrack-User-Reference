@@ -8,6 +8,8 @@
 
 ## Directory:
 Access other pages of documentation from here
+- [Terms and Conditions](https://lazy-day-tech.github.io/TapTrackDocs/Legal/tos)
+- [Privacy Policy](https://lazy-day-tech.github.io/TapTrackDocs/Legal/PrivacyPolicy)
 - API 
   - [Airtable](https://lazy-day-tech.github.io/TapTrackDocs/API/Airtable)
   - [Data](https://lazy-day-tech.github.io/TapTrackDocs/API/Data)
