@@ -76,6 +76,7 @@ The project uses several dependencies, including:
 - **android.nfc** (for Android native NFC implementation)
 - **[AAY-chart](https://github.com/TheChance101/AAY-chart)** (for data visualization)
 - **[QRKitComposeMultiplatform](https://github.com/Chaintech-Network/QRKitComposeMultiplatform)** (for multiplatform QR code support)
+- **[KMPAuth](https://github.com/mirzemehdi/KMPAuth)** (For multiplatform authentication) (Coming in **1.3.0**)
 
 > For a full list of dependencies, refer to the commonMain `build.gradle.kts` file.
 
