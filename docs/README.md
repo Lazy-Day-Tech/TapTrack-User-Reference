@@ -59,12 +59,19 @@ To get started with TapTrack Development, follow these steps:
     cd LDClient
     ```
 
-2. Open the project in Android Studio:
+2. iOS/MacOS setup
+    - Install [Cocoapods](https://cocoapods.org/)
+      - Install dependancies and open workspace:
+      - `cd /LDClient/iosApp`
+      - `pod install`
+      - `open iosApp.xcworkspace`
+
+3. Open the project in Android Studio:
     - Open Android Studio.
     - Select "Open an existing project".
     - Navigate to the `LDClient` directory and open it.
 
-3. Sync the project with Gradle files.
+4. Sync the project with Gradle files.
 
 ## Dependencies
 
@@ -80,6 +87,7 @@ The project uses several dependencies, including:
 - **[AAY-chart](https://github.com/TheChance101/AAY-chart)** (for data visualization)
 - **[QRKitComposeMultiplatform](https://github.com/Chaintech-Network/QRKitComposeMultiplatform)** (for multiplatform QR code support)
 - **[KMPAuth](https://github.com/mirzemehdi/KMPAuth)** (For multiplatform authentication)
+- **[GoogleSignIn-iOS](https://github.com/google/GoogleSignIn-iOS)** (GAuth support for iOS)
 
 > For a full list of dependencies, refer to the commonMain `build.gradle.kts` file.
 
