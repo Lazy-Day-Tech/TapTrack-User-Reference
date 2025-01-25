@@ -13,6 +13,7 @@ Access other pages of documentation from here
 - API 
   - [Airtable](https://lazy-day-tech.github.io/TapTrackDocs/API/Airtable)
   - [Data](https://lazy-day-tech.github.io/TapTrackDocs/API/Data)
+  - [KeyStore](https://lazy-day-tech.github.io/TapTrackDocs/API/KeyStore)
   - [OpenCalgary](https://lazy-day-tech.github.io/TapTrackDocs/API/OpenCalgary)
 - Handlers
   - [DateTimeHandlers](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/DateTimeHandlers)
@@ -38,6 +39,7 @@ Access other pages of documentation from here
     - [NewRepairRecordConfirm](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/NewRepairRecordConfirm)
     - [BasicDialog](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/BasicDialog)
   - Pages
+    - [LoginPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/LoginPage)
     - [ReportPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportPage)
     - [CheckInPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/CheckInPage)
     - [CheckOutPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/CheckOutPage)
