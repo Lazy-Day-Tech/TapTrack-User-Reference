@@ -20,6 +20,7 @@ Access other pages of documentation from here
   - [RaftMapHandlers](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/RaftMap)
   - [DataHandler](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/Data)
   - [RentalResource](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/RentalResource)
+  - [Users](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/Users)
 - Development (For dev docs)
   - [Logging](https://lazy-day-tech.github.io/TapTrackDocs/Development/Logging)
   - [CI/CD Workflow](https://lazy-day-tech.github.io/TapTrackDocs/Development/CICD)
