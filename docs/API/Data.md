@@ -75,7 +75,8 @@ The data classes in this project are annotated with `@Serializable` to enable se
   - `RecordResolutionDateTime`: Resolution date and time (optional).
   - `Repair_Notes`: Notes about the repair (optional).
   - `Type`: Type of repair (optional).
-
+  - `RecordCreatedBy`: Google Display Name of user that created the record
+  - `RecordResolvedBy`: Google Display Name of user that resolved the record
 ---
 
 ## RaftMap Table
@@ -121,3 +122,20 @@ The data classes in this project are annotated with `@Serializable` to enable se
   - `id`: Unique data record identifier.
 
 ---
+
+## User Data
+
+#### `UserRecord`
+
+- Represents an individual raft map record.
+- **Properties:**
+  - `id`: Unique identifier of the record.
+  - `createdTime`: Creation time of the record.
+  - `fields`: Associated user fields as `UserRecordFields`.
+
+#### `UserRecordFields`
+
+- Represents the fields of a raft map record.
+- **Properties:**
+  - `Email_Address`: Permitted google email address.
+  - `TokenID`: Users registered token.

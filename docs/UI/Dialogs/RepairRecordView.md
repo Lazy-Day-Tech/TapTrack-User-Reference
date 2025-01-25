@@ -64,7 +64,7 @@ When the user clicks "Confirm" after modifying the repair record, the record is 
 If the user clicks "Delete", the record is deleted after a confirmation prompt using the deleteRepairRecord API call.
 ### Mark as Repaired
 
-If the user marks the record as "Repaired", the RepairModuleConfirmation dialog appears to confirm the action. If confirmed, the record’s resolution date is set to the current date and time.
+If the user marks the record as "Repaired", the RepairModuleConfirmation dialog appears to confirm the action. If confirmed, the record’s resolution date is set to the current date and time, and the RecordResolvedBy is set to the users google display name. 
 ## Example Usage
 
 ```kotlin
