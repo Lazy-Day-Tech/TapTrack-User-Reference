@@ -40,8 +40,6 @@ CheckInPage is a composable function that represents a user interface (UI) for c
 4. **QR Code Scanner**
     - **Description**: When the "Scan QR" button is selected, the app initiates a QR code scanning session. A semi-transparent overlay is displayed to guide the user to align the QR code within the scanner frame.
     - **Instructions**: Displays "Align the QR code within the frame to scan" at the top of the screen.
-    - **Flashlight Toggle**: A flashlight option to improve visibility during scanning is available.
-    - **Image Picker**: An option to pick an image for scanning QR codes from the gallery is also provided.
     - **Failure Handling**: If the QR code scan fails, an error dialog is triggered.
 
 5. **Confirmation Dialog for NFC Tag**
@@ -85,3 +83,4 @@ CheckInPage(
     navController = navController,
     nfcManager = nfcManager
 )
+```
