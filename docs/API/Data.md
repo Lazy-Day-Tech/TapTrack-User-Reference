@@ -43,6 +43,7 @@ The data classes in this project are annotated with `@Serializable` to enable se
   - `FHID`: FareHarbour Booking UUID (optional).
   - `startDateTime`: Start date and time (optional).
   - `endDateTime`: End date and time (optional).
+  - `QR_Code`: QR Checkin URL (optional, only used for checkin option)
 
 ---
 
