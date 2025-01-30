@@ -210,3 +210,18 @@ This function formats a 10-digit phone number into the format (xxx) xxx-xxxx.
 val formattedPhone = formatPhoneNumber("1234567890")
 // Result: "(123) 456-7890"
 ```
+
+---
+### findMatchingQRCode()
+This function provides lookup functionality for finding qr codes associated with a booking
+
+#### Parameters
+- `qrCode (String)`: The QR code to lookup (Pass from qr scanner)
+
+#### Returns
+- **BookingRecord**
+
+#### Throws
+- `IllegalArgumentException`: If no matching booking for QR code value.
+
+---
