@@ -18,3 +18,11 @@ composable("NewPage") { NewPage(navController) }
 
 ### Handling Navigation Arguments
 Some destinations may require arguments to be passed. This can be done by defining the route with placeholders and retrieving the arguments in the composable function using the backStackEntry parameter. 
+
+#### Example
+```kt
+composable("ReportLookupPage/{filterName}") { backStackEntry ->
+            val filterName = backStackEntry.arguments?.getString("filterName")
+            ReportLookupPage(navController, sharedViewModel, filterName, nfcManager) }
+    }
+```
