@@ -31,7 +31,7 @@ The data classes in this project are annotated with `@Serializable` to enable se
 
 - Represents the fields of a booking record.
 - **Properties:**
-  - `Rentals`: List of rentals (optional).
+  - `Rentals`: String of rentals for associated booking (optional).
   - `Due_Balance`: Due balance for the booking (optional).
   - `Status`: Booking status (optional).
   - `Waivers`: List of waivers (optional).
@@ -43,7 +43,7 @@ The data classes in this project are annotated with `@Serializable` to enable se
   - `FHID`: FareHarbour Booking UUID (optional).
   - `startDateTime`: Start date and time (optional).
   - `endDateTime`: End date and time (optional).
-  - `QR_Code`: QR Checkin URL (optional, only used for checkin option)
+  - `QR_Code`: String of multiple QR Checkin URLs (Each booking item including shuttle seats has its own `Checkin_URL`) (optional, currently only used for checkin option)
 
 ---
 
