@@ -52,6 +52,7 @@ The NavigationRail provides options for navigating between different views:
 - Searching for a record
 - Viewing in-repair items
 - Viewing repair history 
+- Viewing records assigned to you
 
 ### Adding a New Repair Record
 

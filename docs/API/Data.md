@@ -44,6 +44,9 @@ The data classes in this project are annotated with `@Serializable` to enable se
   - `startDateTime`: Start date and time (optional).
   - `endDateTime`: End date and time (optional).
   - `QR_Code`: String of multiple QR Checkin URLs (Each booking item including shuttle seats has its own `Checkin_URL`) (optional, currently only used for checkin option)
+  - `Flags`: List of attached flags to the booking
+  - `CheckedInBy`: Google display name of user that checked in the booking
+  - `CheckedOutBy`: Google display name of user that checked out the booking
 
 ---
 
@@ -78,6 +81,7 @@ The data classes in this project are annotated with `@Serializable` to enable se
   - `Type`: Type of repair (optional).
   - `RecordCreatedBy`: Google Display Name of user that created the record
   - `RecordResolvedBy`: Google Display Name of user that resolved the record
+  - `AssignedTo`: Google Display name of assigned user
 ---
 
 ## RaftMap Table
@@ -140,3 +144,4 @@ The data classes in this project are annotated with `@Serializable` to enable se
 - **Properties:**
   - `Email_Address`: Permitted google email address.
   - `TokenID`: Users registered token.
+  - `DisplayName`: Users google account display name

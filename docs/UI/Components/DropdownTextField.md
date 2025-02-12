@@ -25,7 +25,7 @@ The DropdownTextField is a custom composable component that combines a text fiel
 - `enabled (Boolean, default: true)`:
     - Determines whether the dropdown and text field are interactive. 
     If false, the text field is disabled and no interactions are allowed.
-
+- `Modifier`: allows you to customize the visual appearance of the DropdownTextField. You can pass a `Modifier` object to this parameter to apply additional styles or layout adjustments.
 ## Example
 
 ```kotlin

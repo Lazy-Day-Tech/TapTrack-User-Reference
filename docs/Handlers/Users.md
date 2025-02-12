@@ -49,4 +49,12 @@ This contains various utility functions for handling user records, including che
         - `userToken`: User token to set.
         - `userDisplayName`: User display name to set.
     - **Returns**: `Unit`
+8. **`getUserNames`**
+    - **Description**: Retrieves the display names of all users.
+    - **Parameters**: None
+    - **Returns**: List of user display names.
+
+### Note:
+The function `getUserNames()` is a suspending function that can be used in asynchronous code, it uses `fetchUserRecords()` to retrieve the list of users and then extracts 
+the display names from each user record.
 
