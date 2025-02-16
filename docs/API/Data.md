@@ -36,6 +36,7 @@ The data classes in this project are annotated with `@Serializable` to enable se
   - `Status`: Booking status (optional).
   - `Waivers`: List of waivers (optional).
   - `NFC_UUID`: NFC UUID associated with the booking (optional).
+  - `NFC_UUID_Checkout`: A list of NFC UUIDs of rental items that have already been considered returned
   - `Phone_Number`: Associated phone number (optional).
   - `BookingDateTime`: Date and time of the booking (optional).
   - `Organizer`: Booking organizer (optional).

@@ -111,6 +111,17 @@ If no valid float times exist in the provided bookings:
 
 - `"No valid float times found"`
 
+### formatTime
+```kotlin
+fun formatTime(dateTimeString: String): String
+```
+#### Description:
+- This function converts an ISO 8601 formatted String representing a datetime into a more user-friendly format. It outputs the date and time in the format hh:mm AM/PM Month Day, Year.
+
+#### Parameters:
+- `dateTimeString`: A string representing a datetime in ISO 8601 format.
+#### Returns:
+- A String representing the formatted date and time (e.g., "02:05 PM October 15, 2023").
 
 ## Dependencies
 - kotlinx.datetime: Provides APIs to handle and manipulate dates and times, particularly for working with Instant, LocalDateTime, and TimeZone objects.
