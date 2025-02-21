@@ -34,12 +34,15 @@ Access other pages of documentation from here
     - [ProgressIndicators](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components/ProgressIndicators)
     - [ReportWidgets](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components/ReportWidgets)
     - [DropdownTextField](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components/DropdownTextField)
+    - [Acknowledgement](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components/Acknowledgement)
   - Dialogs
     - [BookingRecordView](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/BookingRecordView)
     - [RepairRecordView](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/RepairRecordView)
     - [NewRepairRecord](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/NewRepairRecord)
     - [NewRepairRecordConfirm](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/NewRepairRecordConfirm)
     - [BasicDialog](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/BasicDialog)
+    - [ShuttleRecordView](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/ShuttleRecordView)
+    - [AckHandoverConfirmationDialog](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/AckHandoverConfirmationDialog)
   - Pages
     - [LoginPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/LoginPage)
     - [ReportPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportPage)
@@ -48,6 +51,21 @@ Access other pages of documentation from here
     - [RepairMenu](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/RepairMenu)
     - [ManualInput](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ManualInput)
     - [Navigation](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/Navigation)
+    - [ShuttleManagement](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ShuttleManagement)
+    - [ShuttleManualInput](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ShuttleManualInput)
+    - [CustomerAcknowledgement](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/CustomerAcknowledgement)
+  - Releases
+    - [Beta-1.2.0](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.2.0)
+    - [Beta-1.2.1](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.2.1)
+    - [Beta-1.2.2](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.2.2)
+    - [Beta-1.2.3](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.2.3)
+    - [Beta-1.3.0](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.3.0)
+    - [Beta-1.3.1](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.3.1)
+    - [Beta-1.3.2](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.3.2)
+    - [Beta-1.3.3](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.3.3)
+    - [Beta-1.3.4](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.3.4)
+    - [Beta-1.3.5](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.3.5)
+    - [Beta-1.4.0](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.4.0)
 
 ---
 

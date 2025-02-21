@@ -22,6 +22,7 @@ BookingRecordView(
     onConfirm: () -> Unit,            // Callback invoked when the user confirms the action.
     onDismiss: () -> Unit,            // Callback invoked when the dialog is dismissed.
     nfcManager: NfcManager            // The NFC manager for managing NFC tag scans.
+    navController: NavController      // The Navigation manager
 )
 ```
 
@@ -32,6 +33,7 @@ BookingRecordView(
 - `onConfirm`: A lambda function that is executed when the user confirms the action, either checking in or checking out the booking.
 - `onDismiss`: A lambda function that is executed when the dialog is dismissed by the user.
 - `nfcManager`: The NFC manager responsible for initiating and managing NFC scans for check-in actions.
+- `navController`: The Navigation manager responsible for navigation routing 
 
 ## Functionality
 ### Booking Details
@@ -42,11 +44,12 @@ The dialog shows various details about the booking, such as:
 - Booking Date and Time
 - Rentals associated with the booking
 - Waivers signed for the booking
-- Booking Notes which the user can modify
+- Booking Notes 
+- Customer Flags (Discrete flags)
 
 ### Check-In and Check-Out
-- If isCheckInMode is true, the user can scan an NFC tag to check in the booking. The booking status will be updated to "Checked-In," and the start time will be recorded.
-- If isCheckOutMode is true, the user can confirm the check-out of the booking. The booking status will be updated to "Returned," and the end time will be recorded.
+- If isCheckInMode is true, the user can scan an NFC tag to check in the booking. The booking status will be updated to "Checked-In," and the start time and Google Display name of the user that checked the booking in will be recorded.
+- If isCheckOutMode is true, the user can confirm the check-out of the booking. The booking status will be updated to "Returned," and the end time and Google Display name of the user that checked the booking in will be recorded.
 
 ### Enabling/Disabling Buttons
 - The Check-In and Check-Out buttons are conditionally enabled or disabled based on the current status of the booking. For example:
@@ -54,14 +57,47 @@ The dialog shows various details about the booking, such as:
     - If the booking is not checked-in yet, the check-out button will be disabled.
 
 ### Modify Booking Notes
-The dialog allows the user to modify the booking notes. Upon clicking the edit button, the user can modify the notes in a new dialog.
+Allows note modification via a dialog. Changes are stored until confirmation, with immediate backend updates for already processed bookings.
 
 ### NFC Scanning
-NFC scanning is initiated when the user clicks on the Check-In button in check-in mode. Once an NFC tag is scanned, the booking is updated with the tag ID, and the booking status is changed to "Checked-In.". If in Check-In mode and the NFC scan fails, it will prompt the user to manually enter the `RaftNumber` which is then translated to its respecitve assigned `NFC_UUID` assigned in the RaftMap.
+
+The NFC scanning process plays a critical role in managing check-ins within the `BookingRecordView`. Here's how it works:
+
+1. **Initiation**: 
+   - The NFC scan is initiated when the user clicks on the Check-In/Check-Out button while in check-in or check-out mode.
+
+2. **Tag Scanning**:
+   - Once an NFC tag is successfully scanned, its UUID (Universal Unique Identifier) is captured and stored in `nfcPayload`.
+   - All scanned tags are accumulated in `nfcPayloads`, ensuring all required items for a booking are checked in.
+
+3. **Booking Update**:
+   - The booking record is updated with the scanned NFC tag IDs.
+   - If all necessary items have been scanned, the booking status changes to "Checked-In" or "Returned" respectively.
+
+4. **Check-Out Considerations**:
+   - In check-out mode, the system ensures that each scanned tag corresponds to items already checked in.
+   - If a tag is not found in the list of checked-in items or has been scanned more than once (indicating it's already checked out), appropriate error messages are displayed.
+
 
 ### Confirmation
-The Confirm button updates the booking status to either "Checked-In" or "Returned," depending on the mode (check-in or check-out).
-    The Dismiss button allows the user to cancel the action and close the dialog.
+
+1. **Confirm Button**:
+   - **Functionality**: 
+     - When clicked, this button updates the booking status to either "Checked-In" or "Returned," depending on whether the user is in check-in or check-out mode.
+   
+   - **Check-In Mode**:
+     - If all required NFC tags are scanned and validated, the booking status transitions to "Checked-In."
+     - Before confirming BowYak rentals or during storm warnings, users must acknowledge any associated risks. This ensures customer awareness and consent.
+
+   - **Check-Out Mode**:
+     - The button checks that all items listed for check-out have corresponding scanned tags.
+     - If all conditions are met, the booking status is updated to "Returned."
+
+2. **Dismiss Button**:
+   - **Functionality**: 
+     - Allows users to cancel the current action without making any changes to the booking record.
+     - Closes the dialog, returning control to the user and preserving existing data states.
+
 
 ## UI Components
 
