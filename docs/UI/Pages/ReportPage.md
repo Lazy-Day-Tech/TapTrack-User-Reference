@@ -1,5 +1,10 @@
 # Report Page
 
+## DEPRECATED:
+No longer used as of version `1.4.1`. 
+
+See [ReportsV2](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportsV2) for documentation relating to the current implementation 
+
 ## Overview
 
 The ReportPage component aggregates and displays the following:

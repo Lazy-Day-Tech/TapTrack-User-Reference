@@ -54,6 +54,8 @@ Access other pages of documentation from here
     - [ShuttleManagement](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ShuttleManagement)
     - [ShuttleManualInput](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ShuttleManualInput)
     - [CustomerAcknowledgement](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/CustomerAcknowledgement)
+    - [ReportsV2](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportsV2)
+    - [ReportLookup](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportLookup)
   - Releases
     - [Beta-1.2.0](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.2.0)
     - [Beta-1.2.1](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.2.1)
@@ -66,6 +68,7 @@ Access other pages of documentation from here
     - [Beta-1.3.4](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.3.4)
     - [Beta-1.3.5](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.3.5)
     - [Beta-1.4.0](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.4.0)
+    - [Beta-1.4.1](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.4.1)
 
 ---
 
@@ -116,6 +119,7 @@ The project uses several dependencies, including:
 - **[QRKitComposeMultiplatform](https://github.com/Chaintech-Network/QRKitComposeMultiplatform)** (for multiplatform QR code support)
 - **[KMPAuth](https://github.com/mirzemehdi/KMPAuth)** (For multiplatform authentication)
 - **[GoogleSignIn-iOS](https://github.com/google/GoogleSignIn-iOS)** (GAuth support for iOS)
+- **[Koin](https://github.com/InsertKoinIO/koin)** (Dependancy Injection)
 
 > For a full list of dependencies, refer to the commonMain `build.gradle.kts` file.
 

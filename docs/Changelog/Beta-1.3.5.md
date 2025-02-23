@@ -1,3 +1,5 @@
+# Beta-1.3.5
+
 ## What's New: 
 - Added support for checking in/out multiple rental items within a single booking
   - Override feature (ignores counters and performs action)

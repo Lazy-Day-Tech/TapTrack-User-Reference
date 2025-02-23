@@ -1,3 +1,5 @@
+# Beta 1.2.0
+
 ## New Features:
 - Float Time Implementation 
   - Set startDateTime and endDateTime on checkin/checkout using device currentDateTime and timezone

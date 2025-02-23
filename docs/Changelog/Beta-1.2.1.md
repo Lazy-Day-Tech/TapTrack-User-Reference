@@ -1,3 +1,5 @@
+# Beta-1.2.1
+
 ## What's Changed
 - New Widgets for ReportPage
 	- WideWidget

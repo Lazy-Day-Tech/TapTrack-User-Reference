@@ -1,3 +1,5 @@
+# Beta-1.3.0
+
 ## What's New
 - Single Sign On Google Authentication
 	- Internal Backend Implementation

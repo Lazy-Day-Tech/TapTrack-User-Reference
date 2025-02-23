@@ -1,3 +1,6 @@
+# Beta-1.2.3
+
+## What's New:
 This release focuses on bug fixes and stability improvements
 - Fixed ReportPage fatal crash when sum of graph data equals 0
 - Fixed ManualInput "Kayak" type filter to find both solo and dual kayaks

@@ -39,7 +39,7 @@ A Card containing a Column with the title at the top, a Divider separating the t
 A Row widget that displays the label, followed by the values for CheckedIn, NotCheckedIn, Returned, and Total. These values are divided by vertical dividers for visual separation. Each value is presented in its own column with equal width. The row layout is designed to fit horizontally across the screen and ensures that each value is easy to read and compare.
 
 
-### PhoneChip (Alpha)
+### PhoneChip 
 #### Parameters
 - `iconColor (Color)`: The color of the phone icon. Defaults to `ColorScheme.LDBlue`.
 - `phoneTextColor (Color)`: The color of the phone number text. Defaults to `ColorScheme.LDGrey`.
@@ -51,7 +51,7 @@ A Row styled as a chip that displays a phone icon and a phone number. The chip h
 
 ---
 
-### ValueChip (Alpha)
+### ValueChip 
 #### Parameters
 - `displayNumber (String)`: The number to display on the chip.
 - `chipColor (Color)`: The background color of the chip. Defaults to `ColorScheme.LDGreen`.
@@ -63,7 +63,7 @@ A Row styled as a chip that displays a number. The chip has a border, background
 
 ---
 
-### ValueChipRow (Alpha)
+### ValueChipRow 
 #### Parameters
 - `displayNumbers (List<String>)`: A list of numbers to display on the chips.
 - `onChipClick ((Int)->Unit)`: The callback function to be invoked when a chip is clicked, with the index of the clicked chip.
@@ -75,7 +75,7 @@ A Column containing a row of chips that display numbers. If `displayText` is pro
 
 ---
 
-### backButton (Alpha)
+### backButton 
 #### Parameters
 - `onClick (()->Unit)`: The callback function to be invoked when the button is clicked.
 - `color (Color)`: The color of the icon and text. Defaults to `ColorScheme.LDGrey`.
@@ -86,7 +86,7 @@ A Row styled as a back button that displays a back icon and the text "Back". The
 
 ---
 
-### BigDateDisplay (Alpha)
+### BigDateDisplay 
 #### Parameters
 - `dateTime (LocalDateTime)`: The date and time to display.
 - `fontSize (TextUnit)`: The font size of the text. Defaults to `20.sp`.

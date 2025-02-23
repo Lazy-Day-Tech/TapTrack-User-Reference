@@ -14,7 +14,7 @@ This component serves as a notification and confirmation tool. When you book an 
 
 - **Navigation Options**:
   - **Decline**: If you decide not to proceed with the booking under these warnings, simply choose "Decline". This will take you back without making any changes.
-  - **Agree**: Once you've acknowledged all necessary warnings by typing "I agree", you can confirm your agreement. This action updates your booking status and logs that you accepted the terms.
+  - **Agree**: Once you've acknowledged all necessary warnings by typing "I agree", you can confirm your agreement. This action updates your booking status and logs that you accepted the terms. This will also launch a new instance of BookingRecordView automatically, allowing the user to continue the checkin process where they left off
 
 ### How to Use
 
@@ -23,6 +23,7 @@ This component serves as a notification and confirmation tool. When you book an 
 2. **Acknowledge**:
    - Enter "I agree" in the text field provided for each warning.
    - Your focus will be cleared once you type this, indicating that acknowledgment is complete.
+   - A new instance of BookingRecordView will be launched. After the booking record view, the user will be moved back to their initial page
 
 3. **Make a Decision**:
    - If you are comfortable with the conditions and have acknowledged them, click "Agree". This confirms your acceptance of the terms associated with your booking.
@@ -31,4 +32,4 @@ This component serves as a notification and confirmation tool. When you book an 
 ### Important Notes
 
 - Your confirmation ("I agree") is necessary for each warning presented. Make sure to acknowledge all that apply before proceeding.
-- Once you agree, the booking details are updated to reflect your acceptance of the warnings, and you will be redirected back to the previous screen.
+- Once you agree, the booking details are updated to reflect your acceptance of the warnings, and the user may continue the check-in process as normal
