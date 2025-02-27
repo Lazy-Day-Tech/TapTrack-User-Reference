@@ -11,7 +11,7 @@ BookingRecordView is a @Composable function designed to display detailed informa
 - **Dynamic Button States**: The availability of check-in and check-out buttons adjusts based on the current booking status to prevent redundant actions.
 - **NFC Integration:** Initiates NFC scanning upon user action in check-in mode, associating the scanned tag ID with the booking and updating its status accordingly.
 - **Manual Check-In:** Allows users to manually enter raft numbers to get its according assigned NFC UUID in the raftMap if NFC scan fails
-
+- **Override:** Allows users to skip Check-In/Check-Out counters and customer acknowledgement in order to perform action
 ## Parameters
 
 ```kotlin
@@ -48,7 +48,7 @@ The dialog shows various details about the booking, such as:
 - Customer Flags (Discrete flags)
 
 ### Check-In and Check-Out
-- If isCheckInMode is true, the user can scan an NFC tag to check in the booking. The booking status will be updated to "Checked-In," and the start time and Google Display name of the user that checked the booking in will be recorded.
+- If isCheckInMode is true, the user can scan an NFC tag to check in the booking. The booking status will be updated to "Checked-In" once the number of scannable rentals associated with the booking have been met. The start time and Google Display name of the user that checked the booking in will be recorded.
 - If isCheckOutMode is true, the user can confirm the check-out of the booking. The booking status will be updated to "Returned," and the end time and Google Display name of the user that checked the booking in will be recorded.
 
 ### Enabling/Disabling Buttons
