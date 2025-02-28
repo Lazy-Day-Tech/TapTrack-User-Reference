@@ -1,5 +1,5 @@
 # Beta-1.5.0
-This release focuses on the new User Permission system. Roles can be created and assigned dynamically independant of the codebase.
+This release focuses on the new User Permission system. Roles can be created and assigned dynamically independent of the codebase.
 
 - User Permissions
 - Shortened ManualInput and reporting datetime displays
