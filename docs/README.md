@@ -15,6 +15,7 @@ Access other pages of documentation from here
   - [Data](https://lazy-day-tech.github.io/TapTrackDocs/API/Data)
   - [KeyStore](https://lazy-day-tech.github.io/TapTrackDocs/API/KeyStore)
   - [OpenCalgary](https://lazy-day-tech.github.io/TapTrackDocs/API/OpenCalgary)
+  - [User Permissions](https://lazy-day-tech.github.io/TapTrackDocs/API/Permissions)
 - Handlers
   - [DateTimeHandlers](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/DateTimeHandlers)
   - [RaftMapHandlers](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/RaftMap)
@@ -69,6 +70,7 @@ Access other pages of documentation from here
     - [Beta-1.3.5](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.3.5)
     - [Beta-1.4.0](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.4.0)
     - [Beta-1.4.1](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.4.1)
+    - [Beta-1.5.0](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.5.0)
 
 ---
 

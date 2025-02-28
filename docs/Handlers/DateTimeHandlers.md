@@ -123,6 +123,18 @@ fun formatTime(dateTimeString: String): String
 #### Returns:
 - A String representing the formatted date and time (e.g., "02:05 PM October 15, 2023").
 
+### formatDateTimeShort
+```kotlin
+fun formatDateTimeShort(dateTimeString: String): String
+```
+#### Description:
+- This function converts a given datetime string into a more user-friendly format. It outputs the date and time in the format hh:mm AM/PM Day Month, Year.
+
+#### Parameters:
+- `dateTimeString`: A string representing a datetime in ISO 8601 format.
+#### Returns:
+- A String representing the formatted date and time (e.g., "12:00 PM Fri Feb 28").
+
 ## Dependencies
 - kotlinx.datetime: Provides APIs to handle and manipulate dates and times, particularly for working with Instant, LocalDateTime, and TimeZone objects.
 - Record: Represents a booking record, containing startDateTime and endDateTime fields (of type String).

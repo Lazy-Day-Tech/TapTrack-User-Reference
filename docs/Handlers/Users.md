@@ -53,6 +53,10 @@ This contains various utility functions for handling user records, including che
     - **Description**: Retrieves the display names of all users.
     - **Parameters**: None
     - **Returns**: List of user display names.
+9. **`getUserPermission`**
+    - **Description**: Fetches a list of all permissions assigned to the currently authenticated user
+    - **Parameters**: None
+    - **Returns**: `List<String>`
 
 ### Note:
 The function `getUserNames()` is a suspending function that can be used in asynchronous code, it uses `fetchUserRecords()` to retrieve the list of users and then extracts 
