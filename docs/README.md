@@ -70,6 +70,7 @@ Access other pages of documentation from here
     - [Beta-1.3.5](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.3.5)
     - [Beta-1.4.0](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.4.0)
     - [Beta-1.4.1](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.4.1)
+    - [Beta-1.4.2](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.4.2)
     - [Beta-1.5.0](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.5.0)
 
 ---
