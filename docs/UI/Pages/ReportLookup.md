@@ -19,6 +19,12 @@ The function initializes several mutable states:
 - `showRecord`: Toggles visibility for displaying an individual booking's details.
 - `nfcPayload`: Stores data received from NFC tag scans.
 
+If "Total" filter is active, the names of organizers will display in varous colors to reflect the state of the booking:
+- `Not Checked-In` -> `LDOrange`
+- `Checked-In` -> `LDBlue`
+- `Returned` -> `LDGreen`
+- Otherwise if in other filter mode, `LDGray`
+
 ### ViewModel Setup
 The function uses Koin to inject an instance of `BookingViewModel`, which provides access to booking records and facilitates data operations provided from the base ReportsV2 page
 

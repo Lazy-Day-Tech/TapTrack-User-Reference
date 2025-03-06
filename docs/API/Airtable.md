@@ -52,7 +52,10 @@ A helper function for executing API calls with robust error handling.
 
 ### fetchBookings
 
-Fetches all booking records from the Airtable API.
+Fetches booking records from the Airtable API.
+
+#### Parameters
+- `view` (Optional): String of backend table view to use when fetching data. If none provided, it will pull from all records
 
 #### Returns
 - `List<Record>`: A list of booking records.

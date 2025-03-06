@@ -10,6 +10,7 @@ Finds a matching booking record by QR code.
 #### Parameters
 
 * `qrCode`: The QR code to match against booking records.
+* `list` (Optional): a list of booking records to compare the QR code against. If none provided, it will automatically fetch **today's** bookings from the backend
 
 #### Returns
 
@@ -53,3 +54,12 @@ println(parsedRentals) // prints [rental1, rental2, rental3]
 ```
 
 Note: The `await` function is not shown here as it's a part of the coroutine context and not directly related to the handler functions.
+
+## fetchItemAvailabilityCount
+
+#### Overview:
+Takes a list of `raftMapRecords` and `repairRecords`, then compares them against the provided `type` or `null` to determine the number of available rafts for each type or all.
+
+#### Returns:
+
+`Int` of item available

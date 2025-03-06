@@ -54,6 +54,7 @@ Access other pages of documentation from here
     - [Navigation](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/Navigation)
     - [ShuttleManagement](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ShuttleManagement)
     - [ShuttleManualInput](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ShuttleManualInput)
+    - [ShuttleReports](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ShuttleReportPage)
     - [CustomerAcknowledgement](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/CustomerAcknowledgement)
     - [ReportsV2](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportsV2)
     - [ReportLookup](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportLookup)
@@ -72,6 +73,7 @@ Access other pages of documentation from here
     - [Beta-1.4.1](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.4.1)
     - [Beta-1.4.2](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.4.2)
     - [Beta-1.5.0](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.5.0)
+    - [Beta-1.5.1](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.5.1)
 
 ---
 
@@ -123,12 +125,13 @@ The project uses several dependencies, including:
 - **[KMPAuth](https://github.com/mirzemehdi/KMPAuth)** (For multiplatform authentication)
 - **[GoogleSignIn-iOS](https://github.com/google/GoogleSignIn-iOS)** (GAuth support for iOS)
 - **[Koin](https://github.com/InsertKoinIO/koin)** (Dependancy Injection)
+- **[compose-table](https://github.com/windedge/compose-table)** (Shuttle Reports)
 
 > For a full list of dependencies, refer to the commonMain `build.gradle.kts` file.
 
 
 ## Device Permissions
-Requires internet access
+Requires internet access and a valid user record with permissions.
 
 ### Android
 ```xml

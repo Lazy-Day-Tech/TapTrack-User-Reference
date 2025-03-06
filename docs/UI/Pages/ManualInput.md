@@ -31,6 +31,7 @@ Several filters are defined to filter the booking records based on their status,
 - `filterType4`, `filterType6`, `filterType8`, `filterType10`, `filterType12`:
 Filters for different types of rafts.
 - `filterTypeBowYak`, `filterTypeKayak` (Includes both solo and dual), `filterTypeLifeJacket`: Filters for different types of equipment.
+> The ManualInput page doesnt currently support a date picker, and only supports `Today` or `Yesterday`
 
 ## UI Components
 - **Search Bar**: Provides a search bar for filtering booking records by search query.

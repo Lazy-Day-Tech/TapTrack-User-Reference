@@ -37,12 +37,13 @@ The following permissions can be assigned to roles:
 | `reports.view`             | Access reports                                                                                           |
 | `repair.user.view` | View which users create/resolve repair records |
 | `repair.update` | Update repair records |
+|  `shuttle.reports` | View reports in Shuttle Management module | 
 
 ### Role-to-Permission Mapping
 
 The following table maps roles to permissions:
 
-> Subject to frequent modifications
+> Subject to frequent modifications. List may not be up to date, check backend role values for more information.
 
 | **Permission**             | **Receptionist** | **Manager** | **Director** |
 | -------------------------- | :----------------: | :------------: | :----------:  |
@@ -68,6 +69,9 @@ The following table maps roles to permissions:
 | `manual_input.perform`     | ✅                  | ✅             | ✅           |
 | `qr.scan`                  | ✅                  | ✅             | ✅           |
 | `reports.view`             | ❌                  | ❌             | ✅           |
+| `repair.user.view`         | ❌                  | ❌             | ✅           |
+| `repair.update`            | ❌                  | ❌             | ✅           |
+| `shuttle.reports`          | ❌                  | ❌             | ✅           |
 
 ## Local Permission Management
 

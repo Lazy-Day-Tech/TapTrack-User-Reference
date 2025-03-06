@@ -9,6 +9,7 @@ The **Shuttle Management** feature lets you manage shuttle bookings easily throu
 - **QR Code Scanning**: Quickly scan a shuttle's QR code to view its booking details.
 - **Manual Entry**: If scanning isn't possible, use the manual input option to enter shuttle information.
 - **Easy Navigation**: Move between different sections of your app with simple navigation buttons.
+- **Common ViewModel**: All pages within the Shuttle Management module share the same ViewModel, allowing for the application to function with minimal API requests while incresing performance
 
 ## How It Works
 

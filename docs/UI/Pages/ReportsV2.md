@@ -42,3 +42,4 @@ The UI is interactive; users can click on different chips to navigate to more de
 - Filtering by `type` will show data based on the total number of rentals across all bookings, rather than on a per-booking basis. If a booking includes multiple types, it will be counted once for each relevant type rather than as a single entry for the entire booking.  
 - The `Total` counters work differently, as they are based on bookings rather than rentals to avoid duplicate counts.
 - The `TotalRentalsToday` widget at the top of the page, however will display the count of all rental items registered for the current date
+- Bookings with only shuttle seats assigned to their booking will not be displayed

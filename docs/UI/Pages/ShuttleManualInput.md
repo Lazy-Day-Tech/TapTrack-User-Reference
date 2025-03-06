@@ -16,6 +16,7 @@ The **Shuttle Manual Input** page is a feature that helps find shuttle bookings 
 
 1. **Access Shuttle Search**: Navigate to the Shuttle Search Page from Shuttle Management page.
 2. **Back Navigation**: Use the back button at the top if you need to return to the main shuttle management area.
+3. **Refresh**: Update the list of bookings stored in the shared ViewModel
 
 ### Main Features
 
