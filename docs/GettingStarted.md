@@ -1,7 +1,17 @@
 # Getting Started with TapTrack
 
+## Table of Contents
+- [What is TapTrack](#what-is-taptrack)
+- [Getting Access](#getting-access)
+- [Downloading TapTrack](#downloading-taptrack)
+    - [Android](#android)
+    - [iOS](#ios)
+        - [Joining the Beta](#joining-the-beta)
+        - [Installing TapTrack](#installing-taptrack)
+- [Giving Feedback](#giving-feedback)
+
 ## What is TapTrack
-TapTrack is a tool that aims to simplify the process of managing bookings and inventory management of rafts. 
+TapTrack is a tool that aims to simplify the process of managing bookings and inventory management of rafts. It helps simplify tasks such as booking check-ins/outs, raft repairs, reporting, and shuttle management.
 
 1. CheckIn/CheckOut Module
     -  This module is responsible for managing the states of customer bookings
@@ -100,6 +110,9 @@ TapTrack is a tool that aims to simplify the process of managing bookings and in
                 1. Name on file
                 2. Booking time
                 3. Number of shuttle seats associated with booking
+5. Customer Acknowledgement 
+    - If a booking has a BowYak associated with their booking, the customer will need to complete an additional step before they can be checked in. The user will need to accept an agreement on the device explaining how they are likely to get wet
+    - This feature also has planned to implement warnings for storms, however this is not yet implemented
 
 
 ## Getting Access
@@ -137,3 +150,7 @@ This is the more complicated platform to get access to. Setup for this platform 
 
 
 ## Giving Feedback
+We are open to feedback. Have an idea of a way we can improve the application? Here are some ways to get this information to us:
+- Email: TBD
+- Talk to: TBD
+- Submit feedback in TestFlight
