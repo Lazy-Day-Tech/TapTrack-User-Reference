@@ -23,8 +23,7 @@ Access other pages of documentation from here
   - [RentalResource](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/RentalResource)
   - [Users](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/Users)
   - [Lookup](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/Lookup)
-- Development (For dev docs)
-  - [Logging](https://lazy-day-tech.github.io/TapTrackDocs/Development/Logging)
+- Development (For development related docs)
   - [CI/CD Workflow](https://lazy-day-tech.github.io/TapTrackDocs/Development/CICD)
 - iOS (For iOS native implementations)
   - [NFC](https://lazy-day-tech.github.io/TapTrackDocs/iOS/NFC)
@@ -76,6 +75,7 @@ Access other pages of documentation from here
     - [Beta-1.5.1](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.5.1)
     - [Beta-1.5.2](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.5.2)
     - [Beta-1.5.3](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.5.3)
+    - [Beta-1.5.4](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.5.4)
 
 ---
 

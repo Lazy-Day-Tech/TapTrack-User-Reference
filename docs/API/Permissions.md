@@ -38,6 +38,7 @@ The following permissions can be assigned to roles:
 | `repair.user.view` | View which users create/resolve repair records |
 | `repair.update` | Update repair records |
 |  `shuttle.reports` | View reports in Shuttle Management module | 
+| `reports.floattime.view` | View advanced floattime information within the reporting module. Requires additional API call to calculate |
 
 ### Role-to-Permission Mapping
 
@@ -72,10 +73,11 @@ The following table maps roles to permissions:
 | `repair.user.view`         | ❌                  | ❌             | ✅           |
 | `repair.update`            | ❌                  | ❌             | ✅           |
 | `shuttle.reports`          | ❌                  | ❌             | ✅           |
+| `reports.floattime.view`| ❌ | ❌ | ✅ |
 
 ## Local Permission Management
 
-To improve performance and reduce the need for API calls, a ViewModel is used to manage user permissions locally. This viewmodel loads the currently authenticated user's active permissions at application launch and checks against a cached list of user permissions while the application remains active.
+To improve performance and reduce the need for API calls, a ViewModel is employed to manage user permissions locally. This viewmodel loads the currently authenticated user's active permissions at application launch and checks against a cached list of user permissions while the application remains active. This means that if a users permissions/roles are updated while they are using the application, they may need to restart the application before the new permissions can take effect. 
 
 **Advantages:**
 
