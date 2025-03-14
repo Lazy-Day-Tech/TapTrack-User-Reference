@@ -27,7 +27,7 @@ Access other pages of documentation from here
     - [AckHandoverConfirmationDialog](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/AckHandoverConfirmationDialog)
   - Pages
     - [LoginPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/LoginPage)
-    - [ReportPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportPage)
+    - ~~[ReportPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportPage)~~ (Deprecated)
     - [CheckInPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/CheckInPage)
     - [CheckOutPage](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/CheckOutPage)
     - [RepairMenu](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/RepairMenu)
@@ -38,6 +38,7 @@ Access other pages of documentation from here
     - [CustomerAcknowledgement](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/CustomerAcknowledgement)
     - [ReportsV2](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportsV2)
     - [ReportLookup](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ReportLookup)
+    - [HourlyReport](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/HourlyReport)
   - Releases
     - [Beta-1.2.0](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.2.0)
     - [Beta-1.2.1](https://lazy-day-tech.github.io/TapTrackDocs/Changelog/Beta-1.2.1)

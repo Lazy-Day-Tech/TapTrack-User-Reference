@@ -33,6 +33,8 @@ TapTrack is a tool that aims to simplify the process of managing bookings and in
             - List of NFC UUIDs that have been scanned for the check in process
         13. CheckOut UUIDs
             - List of matching NFC UUIDs that have been scanned in the check out process
+        14. List of RaftNumbers associated with booking
+            - Resolved from list of CheckIn UUIDs
     1. NFC
         1. Automates the process of booking lookup in CheckOut mode
         2. User scans a tag attached to raft with device to access booking information

@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `ReportLookupPage` provides a view of booking records depending on which filters were selected from `ReportsV2`. This page is also connected to `BookingRecordView` with automated mode selection based on booking status, allowing you to check-in/out bookings or modify flags or booking notes as needed. This screen is part of the reporting feature that helps users navigate through filtered booking data.
+The `ReportLookupPage` provides a view of booking records depending on which filters were selected from `ReportsV2` or `HourlyReport`. This page is also connected to `BookingRecordView` with automated mode selection based on booking status, allowing you to check-in/out bookings or modify flags or booking notes as needed. This screen is part of the reporting feature that helps users navigate through filtered booking data.
 
 ## Key Components
 If "Total" filter is active, the names of organizers will display in varous colors to reflect the state of the booking:

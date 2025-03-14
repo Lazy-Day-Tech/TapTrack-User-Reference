@@ -50,6 +50,7 @@ The data classes in this project are annotated with `@Serializable` to enable se
   - `CheckedOutBy`: Google display name of user that checked out the booking
   - `NFC_UUID_CheckOut`: A list of NFC UUIDs of rental items that have been returned
   - `AcceptedWarnings`: A boolean that stores the state of whether the customer has agreed to all associated caution terms
+  - `RaftNumbers`: A list of all raft numbers for the associated rental items (Currently, only rafts) that are stored on checkin. These raft numbers are resolved from their CheckIn NFC UUIDs
 
 ---
 

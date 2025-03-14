@@ -1,6 +1,6 @@
 # **User Permissions**
 
-The system uses the Role-Based Access Control (RBAC) model to manage user permissions. Roles are created, removed, assigned, and modified with different permissions live. Changes will reflect within the application the next time the application is launched for the assigned user without needing to modify the codebase itself.
+The system uses the Role-Based Access Control (RBAC) model to manage user permissions. Roles are created, removed, assigned, and modified with different permissions live. Changes will reflect within the application the next time the application is launched for the assigned user without needing to modify the codebase directly.
 
 ### Available Roles
 
@@ -78,8 +78,3 @@ The following table maps roles to permissions:
 ## Local Permission Management
 
 To improve performance and reduce the need for API calls, a ViewModel is employed to manage user permissions locally. This viewmodel loads the currently authenticated user's active permissions at application launch and checks against a cached list of user permissions while the application remains active. This means that if a users permissions/roles are updated while they are using the application, they may need to restart the application before the new permissions can take effect. 
-
-**Advantages:**
-
-- Greatly reduces the number of API calls required
-- Improves performance by caching permission data
