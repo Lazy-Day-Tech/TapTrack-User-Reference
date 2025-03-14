@@ -11,14 +11,6 @@ CheckInPage is a composable function that represents a user interface (UI) for c
 - **Customizable UI**: The page features a segmented button interface for selecting the QR scan or manual check-in options.
 - **Blurred Background**: When a dialog is active, the background is blurred for better user focus.
 
-## Parameters
-- `navController: NavController?`
-    - **Type**: NavController?
-    - **Description**: The navigation controller used for managing screen navigation. It's used to navigate to other pages, such as the "ModeSelectionPage" or "ManualInput/CheckInPage".
-- `nfcManager: NfcManager`
-    - **Type**: NfcManager
-    - **Description**: An instance of NfcManager for handling NFC interactions. It scans NFC tags and triggers corresponding actions when a tag is detected.
-
 ## UI Elements
 1. **Back Button**
     - **Description**: A back button (styled with an arrow icon) is placed at the top left corner of the screen. Clicking this button navigates the user back to the "ModeSelectionPage".
@@ -52,35 +44,3 @@ CheckInPage is a composable function that represents a user interface (UI) for c
 
 7. **Exit Button**
     - **Description**: While QR scanning is active, an exit button is displayed at the top-right corner. This button allows users to cancel the scan and return to the previous screen.
-
-## State Management
-- `tagWriteConfirmationDialog: MutableState<Boolean>`
-    - **Description**: Controls the visibility of the confirmation dialog after a successful NFC tag scan. If true, the dialog is shown.
-
-- `selectedIndex: MutableState<Int>`
-    - **Description**: Tracks the selected index of the segmented buttons (either QR scan or manual check-in).
-
-- `nfcPayload: MutableState<String?>`
-    - **Description**: Stores the NFC tag data when it is detected by the nfcManager.
-- `qrCodeURL: MutableState<String>`
-    - **Description**: Stores the URL or data captured from the QR code scan.
-- `initiateQRScan: MutableState<Boolean>`
-    - **Description**: Controls whether the QR code scanner should be displayed. If true, the scanner is initialized.
-- `flashlightOn: MutableState<Boolean>`
-    - **Description**: Tracks the state of the flashlight (on or off) during QR code scanning.
-- `openImagePicker: MutableState<Boolean>`
-    - **Description**: Controls whether the image picker dialog should be shown to the user during QR scanning.
-- `qrErrorDialog: MutableState<Boolean>`
-    - **Description**: Controls the visibility of the error dialog shown when QR scanning fails.
-
-## LaunchedEffect
-NFC Tag Collection: The LaunchedEffect is used to observe NFC tag scans through nfcManager. When a tag is scanned, the nfcPayload is updated, and a log message is generated.
-
-## Example Usage
-
-```kotlin
-CheckInPage(
-    navController = navController,
-    nfcManager = nfcManager
-)
-```

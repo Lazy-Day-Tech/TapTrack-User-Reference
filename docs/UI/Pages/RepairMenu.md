@@ -4,32 +4,6 @@
 
 The `RepairMenu` is a Composable function in the `org.lazyday.ldclient.ui` package. It provides a user interface for managing repair records, including viewing, adding, and searching for repair records. The menu includes navigation options for different functionalities such as history, in-repair items, search, and NFC scanning.
 
-## Parameters
-- `navController`: An optional NavController for navigating between screens within the app.
-- `nfcManager`: An instance of NfcManager for handling NFC interactions.
-
-## Components
-### State Variables
-- `scope`: A coroutine scope for launching coroutines.
-- `isLoading`: A mutable state indicating whether data is loading.
-- `isMakingChanges`: A mutable state indicating whether changes are being made.
-- `nfcPayload`: A mutable state for storing NFC payload data.
-- `selectedIndex`: A mutable state for tracking the selected index in the navigation rail.
-- `repairItems`: A mutable state for storing a list of repair records.
-- `isHistorySelected`, `isInRepairSelected`, `isSearchSelected`, `isNFCSelected`: Mutable states for tracking the selected navigation mode.
-- `showRecordView`, `showAddRecordD1`, `showAddRecordD2`, `showAddRecordD3`, `showAddRecordD4`, `showNewRepairRecordConfirm`: Mutable states for managing the visibility of various dialogs.
-- `matchingItems`: A mutable state for storing a list of matching repair records.
-- `defaultStatus`: A string representing the default status of a new repair record.
-- `newRaftNum`, repairNotes, rentalType, nfcValue: Mutable states for storing input values for new repair records.
-- `safepadding`: A padding value calculated from safe drawing insets.
-- `noRecordsFoundDialog`: A mutable state for managing the visibility of the "No Records Found" dialog.
-
-## UI Components
-- **MaterialTheme**: The theme for the UI components.
-- **NavigationRail**: A vertical navigation rail for menu items.
-- **LazyColumn**: A scrollable column for displaying lists of repair records.
-- **FilterChip**: Chips for filtering search results.
-
 ## Dialogs
 - `NewRepairRecordD1`, `NewRepairRecordD2`, `NewRepairRecordD3`, `NewRepairRecordD4`: Dialogs for adding a new repair record in multiple steps.
 - `NewRepairRecordConfirm`: A dialog for confirming the creation of a new repair record.
