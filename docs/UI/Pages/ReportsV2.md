@@ -20,3 +20,7 @@ Upon initialization or when no records are present, the function fetches booking
 - The `Total` counters work differently, as they are based on bookings rather than rentals to avoid duplicate counts.
 - The `TotalRentalsToday` widget at the top of the page, however will display the count of all rental items registered for the current date
 - Bookings with only shuttle seats assigned to their booking will not be displayed
+
+## Also See:
+1. [ReportLookup](https://lazy-day-tech.github.io/TapTrackDocs/Pages/ReportLookup)
+2. [HourlyReport](https://lazy-day-tech.github.io/TapTrackDocs/Pages/HourlyReport)

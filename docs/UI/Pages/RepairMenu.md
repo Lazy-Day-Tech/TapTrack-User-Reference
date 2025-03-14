@@ -49,4 +49,9 @@ The process of adding a new repair record involves multiple steps, each managed 
 
 ---
 
+Also See:
+- [ReportRecordView](https://lazy-day-tech.github.io/TapTrackDocs/Dialogs/RepairRecordView)
+- [NewRepairRecord](https://lazy-day-tech.github.io/TapTrackDocs/Dialogs/NewRepairRecord)
+- [NewRepairRecordConfirmation](https://lazy-day-tech.github.io/TapTrackDocs/Dialogs/NewRepairRecordConfirm)
+
 

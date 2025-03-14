@@ -35,3 +35,8 @@ The UI is interactive:
 - Users can navigate back to the main report screen using the back button.
 - Booking records are clickable, allowing users to view details or make modifications.
 - NFC tags can be scanned to check bookings in/out.
+
+
+## Also See:
+1. [ReportsV2](https://lazy-day-tech.github.io/TapTrackDocs/Pages/ReportsV2)
+2. [HourlyReport](https://lazy-day-tech.github.io/TapTrackDocs/Pages/HourlyReport)
