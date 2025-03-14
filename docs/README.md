@@ -11,24 +11,11 @@ Access other pages of documentation from here
 - [Terms and Conditions](https://lazy-day-tech.github.io/TapTrackDocs/Legal/tos)
 - [Privacy Policy](https://lazy-day-tech.github.io/TapTrackDocs/Legal/PrivacyPolicy)
 - API 
-  - [Airtable](https://lazy-day-tech.github.io/TapTrackDocs/API/Airtable)
   - [Data](https://lazy-day-tech.github.io/TapTrackDocs/API/Data)
   - [KeyStore](https://lazy-day-tech.github.io/TapTrackDocs/API/KeyStore)
-  - [OpenCalgary](https://lazy-day-tech.github.io/TapTrackDocs/API/OpenCalgary)
   - [User Permissions](https://lazy-day-tech.github.io/TapTrackDocs/API/Permissions)
-- Handlers
-  - [DateTimeHandlers](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/DateTimeHandlers)
-  - [RaftMapHandlers](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/RaftMap)
-  - [DataHandler](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/Data)
-  - [RentalResource](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/RentalResource)
-  - [Users](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/Users)
-  - [Lookup](https://lazy-day-tech.github.io/TapTrackDocs/Handlers/Lookup)
 - Development (For development related docs)
   - [CI/CD Workflow](https://lazy-day-tech.github.io/TapTrackDocs/Development/CICD)
-- iOS (For iOS native implementations)
-  - [NFC](https://lazy-day-tech.github.io/TapTrackDocs/iOS/NFC)
-- Android (For Android Native implementations)
-  - [NFC](https://lazy-day-tech.github.io/TapTrackDocs/Android/NFC)
 - UI
   - Components
     - [ProgressIndicators](https://lazy-day-tech.github.io/TapTrackDocs/UI/Components/ProgressIndicators)
@@ -87,30 +74,6 @@ Access other pages of documentation from here
 
 ---
 
-## Getting Started
-
-To get started with TapTrack Development, follow these steps:
-
-1. Clone the repository (private repo):
-    ```sh
-    git clone https://github.com/Lazy-Day-Tech/LDClient.git
-    cd LDClient
-    ```
-
-2. iOS/MacOS setup
-    - Install [Cocoapods](https://cocoapods.org/)
-      - Install dependancies and open workspace:
-      - `cd /LDClient/iosApp`
-      - `pod install`
-      - `open iosApp.xcworkspace`
-
-3. Open the project in Android Studio:
-    - Open Android Studio.
-    - Select "Open an existing project".
-    - Navigate to the `LDClient` directory and open it.
-
-4. Sync the project with Gradle files.
-
 ## Dependencies
 
 The project uses several dependencies, including:
@@ -122,41 +85,26 @@ The project uses several dependencies, including:
 - **Kotlinx DateTime** (for Multiplatform DateTime support)
 - **CoreNFC** (for iOS native NFC implementation)
 - **android.nfc** (for Android native NFC implementation)
-- **[AAY-chart](https://github.com/TheChance101/AAY-chart)** (for data visualization)
 - **[QRKitComposeMultiplatform](https://github.com/Chaintech-Network/QRKitComposeMultiplatform)** (for multiplatform QR code support)
 - **[KMPAuth](https://github.com/mirzemehdi/KMPAuth)** (For multiplatform authentication)
 - **[GoogleSignIn-iOS](https://github.com/google/GoogleSignIn-iOS)** (GAuth support for iOS)
 - **[Koin](https://github.com/InsertKoinIO/koin)** (Dependancy Injection)
-- **[compose-table](https://github.com/windedge/compose-table)** (Shuttle Reports)
+- **[compose-table](https://github.com/windedge/compose-table)** (Shuttle Reports and Hourly Report UI)
 
-> For a full list of dependencies, refer to the commonMain `build.gradle.kts` file.
+> This is not a complete list of dependancies in use, only the main ones
 
 
 ## Device Permissions
-Requires internet access and a valid user record with permissions.
+Requires internet access and a valid user record with permissions/role.
 
 ### Android
-```xml
-    Used for NFC Check-In/Check-Out/Repair Management
-    <uses-feature android:name="android.hardware.nfc" android:required="true" />
-    <uses-permission android:name="android.permission.NFC" />
-    <action android:name="android.nfc.action.TAG_DISCOVERED"/>
+1. NFC Reader
+    1. `TAG_DISCOVERED`
+2. Camera
+    1. Autofocus
+    2. Flashlight
 
-    Used for QR code Check-In process
-    <uses-feature android:name="android.hardware.camera"/>
-    <uses-feature android:name="android.hardware.camera.autofocus"/>
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.FLASHLIGHT"/>
-```
+
 ### iOS
-```plist
-  Used for NFC Check-In/Check-Out/Repair Management
-  <key>NFCReaderUsageDescription</key>
-	<string>Needed for raft interaction</string>
-  
-  Used for QR code Check-In process
-	<key>NSCameraUsageDescription</key>
-	<string>Used for QR Code Check-In process</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Used for QR code check in</string>
-```
+1. NFC Reader
+2. Camera
