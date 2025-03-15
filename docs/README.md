@@ -69,37 +69,21 @@ Access other pages of documentation from here
 
 ---
 
-## Dependencies
-
-The project uses several dependencies, including:
-
-- **Multiplatform-Compose** (for UI)
-- **Ktor** (for networking)
-- **Kermit** (for logging)
-- **Kotlinx Serialization** (for JSON parsing)
-- **Kotlinx DateTime** (for Multiplatform DateTime support)
-- **CoreNFC** (for iOS native NFC implementation)
-- **android.nfc** (for Android native NFC implementation)
-- **[QRKitComposeMultiplatform](https://github.com/Chaintech-Network/QRKitComposeMultiplatform)** (for multiplatform QR code support)
-- **[KMPAuth](https://github.com/mirzemehdi/KMPAuth)** (For multiplatform authentication)
-- **[GoogleSignIn-iOS](https://github.com/google/GoogleSignIn-iOS)** (GAuth support for iOS)
-- **[Koin](https://github.com/InsertKoinIO/koin)** (Dependancy Injection)
-- **[compose-table](https://github.com/windedge/compose-table)** (Shuttle Reports and Hourly Report UI)
-
-> This is not a complete list of dependancies in use, only the main ones
-
-
 ## Device Permissions
 Requires internet access and a valid user record with permissions/role.
 
 ### Android
 1. NFC Reader
+    - For Booking/Repair Lookup and Management
     1. `TAG_DISCOVERED`
 2. Camera
+    - For QR Code scanning
     1. Autofocus
     2. Flashlight
 
 
 ### iOS
 1. NFC Reader
+    - For Booking/Repair Lookup and Management
 2. Camera
+    - For QR Code scanning
