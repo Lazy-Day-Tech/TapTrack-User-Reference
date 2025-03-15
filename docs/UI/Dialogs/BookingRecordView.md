@@ -12,28 +12,6 @@ BookingRecordView is a @Composable function designed to display detailed informa
 - **NFC Integration:** Initiates NFC scanning upon user action in check-in mode, associating the scanned tag ID with the booking and updating its status accordingly.
 - **Manual Check-In:** Allows users to manually enter raft numbers to get its according assigned NFC UUID in the raftMap if NFC scan fails
 - **Override:** Allows users to skip Check-In/Check-Out counters and customer acknowledgement in order to perform action
-## Parameters
-
-```kotlin
-BookingRecordView(
-    initialBooking: Record,           // The initial booking record to display.
-    isCheckInMode: Boolean,           // Determines if the dialog is in check-in mode.
-    isCheckOutMode: Boolean,          // Determines if the dialog is in check-out mode.
-    onConfirm: () -> Unit,            // Callback invoked when the user confirms the action.
-    onDismiss: () -> Unit,            // Callback invoked when the dialog is dismissed.
-    nfcManager: NfcManager            // The NFC manager for managing NFC tag scans.
-    navController: NavController      // The Navigation manager
-)
-```
-
-### Parameters Explained:
-- `initialBooking`: The initial booking record that is displayed in the dialog. It contains all the details about the booking including the organizer's name, phone number, booking date/time, rentals, waivers, and booking notes.
-- `isCheckInMode`: A boolean flag that determines if the dialog is in "Check-In" mode. When true, the user can check-in the booking.
-- `isCheckOutMode`: A boolean flag that determines if the dialog is in "Check-Out" mode. When true, the user can check-out the booking.
-- `onConfirm`: A lambda function that is executed when the user confirms the action, either checking in or checking out the booking.
-- `onDismiss`: A lambda function that is executed when the dialog is dismissed by the user.
-- `nfcManager`: The NFC manager responsible for initiating and managing NFC scans for check-in actions.
-- `navController`: The Navigation manager responsible for navigation routing 
 
 ## Functionality
 ### Booking Details
@@ -46,9 +24,13 @@ The dialog shows various details about the booking, such as:
 - Waivers signed for the booking
 - Booking Notes 
 - Customer Flags (Discrete flags)
+- CheckIn and CheckOut user
+- RaftNumbers for valid checked-in rafts
+- Start Time
+- Float Time
 
 ### Check-In and Check-Out
-- If isCheckInMode is true, the user can scan an NFC tag to check in the booking. The booking status will be updated to "Checked-In" once the number of scannable rentals associated with the booking have been met. The start time and Google Display name of the user that checked the booking in will be recorded.
+- If isCheckInMode is true, the user can scan an NFC tag to check in the booking. The booking status will be updated to "Checked-In" once the number of scannable rentals associated with the booking have been met. The start time and Google Display name of the user that checked the booking in will be recorded. NFC UUIDs will also be resolved to their RaftNumbers. 
 - If isCheckOutMode is true, the user can confirm the check-out of the booking. The booking status will be updated to "Returned," and the end time and Google Display name of the user that checked the booking in will be recorded.
 
 ### Enabling/Disabling Buttons
@@ -98,42 +80,3 @@ The NFC scanning process plays a critical role in managing check-ins within the 
      - Allows users to cancel the current action without making any changes to the booking record.
      - Closes the dialog, returning control to the user and preserving existing data states.
 
-
-## UI Components
-
-The following UI components are used to create the booking record view:
-- **AlertDialog**: A modal dialog that displays booking details and allows the user to confirm or dismiss actions.
-- **Text**: Used to display text fields such as booking name, phone number, status, and other information.
-- **Image**: Displays an image related to the rental.
-- **Button**: Provides buttons for confirming check-in/check-out and editing booking notes.
-- **OutlinedButton**: Used for the "Go Back" button.
-- **Spacer**: Adds spacing between UI elements.
-- **Icon**: Displays an icon (e.g., for the edit button).
-- **Row and Column**: Layout components to arrange UI elements in a horizontal or vertical manner.
-- **BasicSnackbar**: Custom UI component used to warn user if both NFC scan and ManualInput fails
-
-## Helper Functions Used:
-- `formatPhoneNumber`: Formats the phone number into a human-readable format.
-- `convertTo12Hour`: Converts a 24-hour time format into a 12-hour format with AM/PM.
-- `formatDateTime`: Formats the start and end date-time in a user-friendly way.
-- `compareTime`: Compares two date-times and provides information about the difference between them.
-- `duplicateRentalHandler`: Handles rental data and avoids duplicate rentals.
-- `updateBooking`: A function used to update booking details on the server.
-- `StandardProgressDialog`: A loading dialog displayed while the booking is being updated.
-
-### Example Usage
-
-```kotlin
-BookingRecordView(
-    initialBooking = bookingRecord,
-    isCheckInMode = true,
-    isCheckOutMode = false,
-    onConfirm = { 
-        // Handle the confirmation action
-    },
-    onDismiss = { 
-        // Handle the dismissal action
-    },
-    nfcManager = nfcManager
-)
-```

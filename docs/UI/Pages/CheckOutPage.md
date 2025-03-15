@@ -11,15 +11,6 @@ CheckOutPage is a composable function that handles the checkout process, allowin
 - **Checkout Confirmation**: A dialog confirms successful checkout if the booking is found and matches the tag.
 - **Floating Action Button**: A floating action button (FAB) for initiating the NFC scan.
 
-## Parameters
-- `navController: NavController?`
-    - **Type**: NavController?
-    - **Description**: The navigation controller used to manage screen navigation. It allows the user to navigate to the "ModeSelectionPage" or other related pages, like "ManualInput/CheckOutPage".
-
-- `nfcManager: NfcManager`
-    - **Type**: NfcManager
-    - **Description**: An instance of NfcManager for managing NFC interactions. It detects NFC tags and triggers actions based on the tag data.
-
 ## UI Elements
 1. Back Button
     - **Description**: A back button (styled with an arrow icon) is placed at the top left corner of the screen. Clicking this button navigates the user back to the "ModeSelectionPage".
@@ -47,46 +38,6 @@ CheckOutPage is a composable function that handles the checkout process, allowin
     - **Invalid Tag**: If the NFC tag is invalid (i.e., not matching the expected format or length), an error dialog (InvalidTagDialog) is shown.
     - **Uninitialized Tag**: If no NFC tag is scanned, a warning dialog (ErrorDialogue) is displayed, indicating that the tag might be uninitialized.
     - **Booking Not Found**: If no booking matches the scanned NFC tag, a "Booking Not Found" dialog (RecordNotFound) is shown, prompting the user to retry.
-
-## State Management
-- `checkOutSuccessDialog: MutableState<Boolean>`
-    - **Description**: Controls the visibility of the checkout success dialog. When set to true, the booking confirmation dialog is shown.
-
-- `bookingInfo: MutableState<Record?>`
-    - **Description**: Stores the booking information retrieved after scanning an NFC tag. If a matching booking is found, this state holds the corresponding Record.
-
-- `nfcPayload: MutableState<String?>`
-    - **Description**: Stores the scanned NFC tag data. Used to match the tag with bookings.
-
-- `showBookingNotFound: MutableState<Boolean>`
-    - **Description**: Controls the visibility of the "Booking Not Found" dialog. Set to true when no matching booking is found for the scanned tag.
-
-- `showInvalidTag: MutableState<Boolean>`
-    - **Description**: Controls the visibility of the "Invalid Tag" dialog. Set to true when an invalid tag is scanned.
-
-- `showUninitializedTagWarning: MutableState<Boolean>`
-    - **Description**: Controls the visibility of the warning dialog when no tag is scanned. It indicates that the tag may be uninitialized.
-
-- `initializeBE: MutableState<Boolean>`
-    - **Description**: Tracks whether the background effect (blurred screen) should be applied when the checkout dialog is active.
-
-- `matchingBooking: MutableState<String>`
-    - **Description**: Holds the matching booking information if a valid match is found for the scanned NFC tag.
-
-## LaunchedEffect
-- **NFC Tag Collection**: The LaunchedEffect listens for new NFC tags using the nfcManager. When a tag is detected:
-    - It checks whether the tag is uninitialized, invalid, or matches a valid booking.
-    - If a valid tag is found, the corresponding booking is fetched, and the checkout success dialog is triggered.
-    - If the tag is invalid or no booking is found, error dialogs are shown.
-
-## Example Usage
-
-```kotlin
-CheckOutPage(
-    navController = navController,
-    nfcManager = nfcManager
-)
-```
 
 ## Behavior:
 - **NFC Scan**: When the user taps the FAB, an NFC scan is initiated.

@@ -9,28 +9,6 @@ RepairRecordViewV2 is a composable function used to display and manage repair re
 - **Confirmation Dialogs**: Provides confirmation dialogs before deleting or marking a record as repaired.
 - **Coroutines and Background Operations**: Uses Kotlin coroutines for asynchronous operations like updating and deleting records, ensuring smooth user interactions.
 
-### Parameters
-- `repairRecord: RepairRecord`
-    - **Type**: RepairRecord
-    - The repair record object that contains the details of the repair, including status, notes, and dates.
-- `onDismiss: () -> Unit`
-    - **Type**: () -> Unit
-    - A callback to dismiss the dialog, typically used to close the dialog when the user cancels or dismisses it.
-- `onConfirm`: () -> Unit
-    - **Type**: () -> Unit
-    - A callback to be triggered when the user confirms the changes made in the dialog, such as updating the record or marking it as repaired.
-- `nfcManager: NfcManager`
-    - **Type**: NfcManager
-    - The NFC manager object used to handle NFC tag scanning. It listens for NFC tag events and captures payload data.
-- State Variables
-    - **repairState**: Stores the current repair record state. It's updated when the user modifies the repair notes or status.
-    - **nfcActive**: Tracks whether NFC is currently active.
-    - **nfcPayload**: Holds the NFC tag data when a tag is scanned.
-    - **repairNote**: Holds the repair notes that the user can modify.
-    - **selectedStatusOption**: Stores the selected status for the repair record (e.g., "Broken", "In-Repair", "Repaired").
-    - **isEditable**: A boolean value indicating whether the repair record is editable (i.e., it is not marked as "Repaired").
-    - **showModifyRental**, showDeleteRecordConfiration, showConfirmRepaired: States for controlling visibility of confirmation dialogs.
-
 ## UI Elements
 1. Title Bar with Repair Type and Raft Number
     - Displays the repair type and raft number.
@@ -65,16 +43,3 @@ If the user clicks "Delete", the record is deleted after a confirmation prompt u
 ### Mark as Repaired
 
 If the user marks the record as "Repaired", the RepairModuleConfirmation dialog appears to confirm the action. If confirmed, the record’s resolution date is set to the current date and time, and the RecordResolvedBy is set to the users google display name. 
-## Example Usage
-
-```kotlin
-val nfcManager = NfcManager(context) // Initialize NfcManager
-val repairRecord = RepairRecord(...) // Define the repair record
-
-RepairRecordViewV2(
-    repairRecord = repairRecord,
-    onDismiss = { /* Handle dismiss action */ },
-    onConfirm = { /* Handle confirm action */ },
-    nfcManager = nfcManager
-)
-```

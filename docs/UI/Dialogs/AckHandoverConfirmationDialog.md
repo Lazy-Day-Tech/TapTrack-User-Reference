@@ -6,36 +6,16 @@
 
 This dialog is used when a specific customer action or acknowledgment is necessary before continuing with a process. It presents users with a message and a visual icon, alongside a "Confirm" button to finalize their acknowledgment.
 
-### Key Features
+## Triggers
+1. If 1 or more bowyaks are associated with the booking
+2. ~~If there is a potential storm incoming~~ (Not yet implemented)
 
-- **Customizable Message**: The dialog displays an informative message that can be customized based on the context of its usage.
-  
-- **Icon Display**: Alongside the message, a customizable icon is shown for additional visual information or emphasis.
+## Functionlity
+1. If triggered,
+2. Display warining to employee that further confirmation is needed for the booking before it can be checked-in
+3. After the employee dismisses the warning dialog, a new page will appear
+4. Customer must type "I agree" In any required fields on the page. 
+5. Once the user enters in all text boxes, a confirm button will enable at the bottom of the screen
+6. Once confirmed, the confirmation will be logged to the remote booking information and the checkin process can continue 
 
-- **User Interaction**:
-  - Users are required to click "Confirm" in order to acknowledge and proceed with their decision.
-  - The dialog automatically dismisses if the user taps outside of it or presses the back button, providing flexibility in how users can cancel the action.
-
-### Design Elements
-
-- **Visual Styling**: 
-  - The dialog is styled with rounded corners and a border to make it visually distinct.
-  - It utilizes colors from `ColorScheme` for consistency throughout the application's UI. 
-
-- **Components**:
-  - **Text Fields**: Used to convey the main message and title of the acknowledgment requirement.
-  - **Divider**: Serves as a visual separation between different sections within the dialog.
-  - **Icon**: A vector image is displayed next to the text for additional context or emphasis.
-
-## How to Use
-
-1. **Configure the Dialog**:
-   - Customize the `message` parameter with the specific information you want to present to the user.
-   - Set the `Icon` resource to provide a visual cue related to the message.
-
-2. **Handle User Actions**:
-   - Define what should happen when users click "Confirm" by providing an action to the `onConfirm` parameter.
-   - Provide an action for the dialog dismissal through the `onDismiss` parameter if specific cleanup or additional steps are needed.
-
-3. **Display the Dialog**: Invoke this composable function in your UI code where you need to prompt user acknowledgment, passing all required parameters (message, icon, and callbacks).
-
+See [CustomerAcknowlegement](https://lazy-day-tech.github.io/TapTrackDocs/Pages/CustomerAcknowledgement)

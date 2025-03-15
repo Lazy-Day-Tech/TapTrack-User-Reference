@@ -8,40 +8,6 @@ NewRepairRecordConfirm is a composable function designed to display a confirmati
 - Confirm and Cancel Actions: Provides options for confirming the creation of the repair record or going back to the previous screen.
 - Warnings and Alerts: Shows warnings if an invalid or uninitialized NFC tag is detected and prompts the user before overwriting an existing NFC UUID.
 
-## Parameters
-- `onCreate: (LocalDateTime) -> Unit`
-    - **Type**: (LocalDateTime) -> Unit
-    - A callback to be executed when the user confirms the creation of the repair record. It takes the current date and time as a parameter.
-- `onDismiss: () -> Unit`
-    - **Type**: () -> Unit
-    - A callback to dismiss the confirmation dialog, typically used when the user clicks the "Go Back" button.
-- `repairNotes: String`
-    - **Type**: String
-    - The repair notes associated with the record.
-- `raftNum: String`
-    - **Type**: String
-    - The raft number associated with the repair record.
-- `rentalType: String`
-    - **Type**: String
-    - The type of rental associated with the repair record.
-- `defaultStatus: String`
-    - **Type**: String
-    - The default status of the repair record (e.g., "Pending", "In-Repair").
-- `nfcUUID: String`
-    - **Type**: String
-    - The NFC UUID associated with the repair record. If it's empty, it indicates that no NFC tag is registered.
-- `nfcManager: NfcManager`
-    - **Type**: NfcManager
-    - The NFC manager object used to handle NFC tag scanning. It listens for NFC tag events and captures payload data.
-
-## State Variables
-- **nfcActive**: Tracks whether NFC is currently active (i.e., whether an NFC UUID is registered).
-- **nfcPayload**: Holds the NFC tag data when a tag is scanned.
-- **showInvalidTag**: Displays a warning if the scanned NFC tag is invalid.
-- **showUninitializedTagWarning**: Displays a warning if no NFC tag is scanned.
-- **didScan**: Tracks whether an NFC scan has been initiated.
-- **showActiveTagWarning**: Displays a dialog asking the user if they want to overwrite the existing NFC tag UUID.
-
 ## UI Elements
 1. Title and Repair Details
     - Displays the title "Confirm Repair Record" and details such as the rental type, raft number, repair notes, and creation date.
@@ -73,23 +39,3 @@ When the user clicks "Create", the current date and time are passed to the onCre
 Dismissing the Dialog
 
 The "Go Back" button triggers the onDismiss callback, allowing the user to cancel the action and close the dialog.
-### Example Usage
-
-```kotlin
-val nfcManager = NfcManager(context) // Initialize NfcManager
-
-NewRepairRecordConfirm(
-    onCreate = { currentDate -> 
-        // Handle the creation of the new repair record
-    },
-    onDismiss = { 
-        // Handle dialog dismissal
-    },
-    repairNotes = "Repair note details",
-    raftNum = "12345",
-    rentalType = "4-person raft",
-    defaultStatus = "In-Repair",
-    nfcUUID = "123e4567-e89b-12d3-a456-426614174000",
-    nfcManager = nfcManager
-)
-```
