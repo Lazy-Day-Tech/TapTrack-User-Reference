@@ -8,7 +8,7 @@
 
 ## Directory:
 Access other pages of documentation from here
-- [Getting Starterd](https://lazy-day-tech.github.io/TapTrackDocs/GettingStarted)
+- [Getting Started](https://lazy-day-tech.github.io/TapTrackDocs/GettingStarted)
 - [Terms and Conditions](https://lazy-day-tech.github.io/TapTrackDocs/Legal/tos)
 - [Privacy Policy](https://lazy-day-tech.github.io/TapTrackDocs/Legal/PrivacyPolicy)
 - API 
