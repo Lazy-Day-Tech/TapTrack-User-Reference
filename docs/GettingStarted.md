@@ -3,152 +3,144 @@
 ## Table of Contents
 - [What is TapTrack](#what-is-taptrack)
 - [Getting Access](#getting-access)
-- [Downloading TapTrack](#downloading-taptrack)
+- [Downloading & Installing TapTrack](#downloading--installing-taptrack)
     - [Android](#android)
     - [iOS](#ios)
-        - [Joining the Beta](#joining-the-beta)
-        - [Installing TapTrack](#installing-taptrack)
+- [Using TapTrack Modules](#using-taptrack-modules)
+    - [Check-In/Check-Out Module](#check-incheckout-module)
+    - [Repair Module](#repair-module)
+    - [Reporting Module](#reporting-module)
+    - [Shuttle Management Module](#shuttle-management-module)
+- [Customer Acknowledgement](#customer-acknowledgement)
 - [Giving Feedback](#giving-feedback)
 
-## What is TapTrack
-TapTrack is a tool that aims to simplify the process of managing bookings and inventory management of rafts. It helps simplify tasks such as booking check-ins/outs, raft repairs, reporting, and shuttle management.
+## What is TapTrack?
 
-1. CheckIn/CheckOut Module
-    - This module is responsible for managing the states of customer bookings.
-    - Booking Records consist of:
-        1. Name on file
-        2. Phone Number on file
-        3. Booking Status
-        4. Booking Date and Time
-        5. List of rentals associated with the booking
-        6. Waivers
-        7. Booking Notes
-        8. Start Time
-            - The time the booking was actually checked-in
-        9. End Time
-        10. Float Time
-            - The duration of the booking between check-in and check-out
-        11. Flags
-        12. CheckIn UUIDs
-            - List of NFC UUIDs that have been scanned for the check-in process
-        13. CheckOut UUIDs
-            - List of matching NFC UUIDs that have been scanned in the check-out process
-        14. List of Raft Numbers associated with booking
-            - Resolved from the list of CheckIn UUIDs
-    - NFC
-        1. Automates the process of booking lookup in CheckOut mode
-        2. User scans a tag attached to the raft with a device to access booking information
-    - Manual Search
-        1. If there is a problem with NFC, you can search for bookings manually by a combination of:
-            1. Name
-            2. Phone Number
-            3. Booking Status
-            4. Date
-                1. Today
-                2. Yesterday
-                3. ~~Custom Date~~ (Not yet supported)
-            5. Rental Type
-    - QR Lookup
-        1. Within CheckIn mode, there is an option for a QR scan
-        2. This will initiate a QR scanner that can look up booking records in our system if the customer provides a FareHarbor QR code
-2. Repair Module
-    - This module is responsible for managing the status of raft inventory.
-    - Repair records can be created for rafts that require service before they can be returned to inventory.
-    - A history of these records gets logged for each raft.
-    - Repair Records can consist of:
-        1. Raft Type 
-            - i.e., "6 Person Raft"
-        2. Raft Number
-        3. Record Creation Date
-        4. Record Resolution Date
-        5. User that created the repair record
-        6. User that resolved the repair record
-        7. User that the record is assigned to
-        8. Repair Notes
-        9. Repair Status
-    - Within the Repair Mode, there are several tabs:
-        1. Add Record
-            - Create a new repair record
-        2. Search 
-            - Manually search for a raft's repair history by raft number
-        3. NFC
-            - Search for a specific raft's repair history by scanning the raft's NFC tag
-        4. In-Repair
-            - A list of all repair records currently in repair
-        5. History
-            - A list of repair records of all states sorted by date
-        6. Assigned
-            - A list of repair records assigned to the user's account
-3. Reporting Module
-    - This mode is responsible for displaying statistics of today's bookings.
-    - The reporting module consists of 2 pages:
-        1. Status and Rental
-            - Displays counters of rafts by rental type and status
-            - Displays the total number of combined rentals booked for the current day
-            - Displays total availability of each rental type (Total rafts minus rafts in repair)
-            - Total bookings in each state
-            - Average float time
-                - Today's average float time
-                - Yesterday's average float time
-                - Difference in percentage
-            - Search/access booking records based on these filters
-        2. Hourly Report
-            - Displays the number of each type to be sent out each hour
-            - Search/access booking records based on these filters
-4. Shuttle Management Module
-    - This mode is responsible for quickly locating and gathering only essential information needed to manage the shuttle.
-    - This mode consists of 3 pages:
-        1. Scan
-            - This allows for the quick lookup of records using the FareHarbor QR code if the customer provides it
-        2. Manual
-            - Allows for search lookup of records with active shuttle seats associated with the booking for the current day
-        3. Shuttle Report
-            - Displays bookings with shuttle seats associated with the booking for the current date
-            - Only the following record information is shown:
-                1. Last name 
-                2. Number of shuttle seats associated 
-                3. Number of shuttle seats booked for each hour
-            - The following information is shown for each record:
-                1. Name on file
-                2. Booking time
-                3. Number of shuttle seats associated with booking
-5. Customer Acknowledgement 
-    - If a booking has a BowYak associated with their booking, the customer will need to complete an additional step before they can be checked in. The user will need to accept an agreement on the device explaining how they are likely to get wet.
-    - This feature also has planned warnings for storms, however, this is not yet implemented.
+TapTrack simplifies the management of raft bookings and inventory. It streamlines tasks like check-in/check-out, raft repairs, reporting, and shuttle management.  It's designed to improve efficiency and accuracy in day to day operations.
 
 ## Getting Access
-When a user is given access to the application, they need to either give or be provided with the following:
-1. **Valid Google email address**: In order to authenticate directly within the application.
-2. **Apple associated email address (Optional)**: If the user wants to install the app on their personal Apple device.
 
-## Downloading TapTrack
+To access TapTrack, you will need:
+
+1. **Valid Google email address:** Used for authentication within the application.
+2. **Apple associated email address (Optional):** Required if installing on a personal Apple device.  Provide this when requesting iOS beta access.
+
+## Downloading & Installing TapTrack
+
 Currently, due to complications with getting internal applications approved on the open app stores, the application is only available for download from a beta stream that may take additional steps to get access to.
 
 ### Android
-*To Be Determined.*
 
-#### ~~Joining the beta~~
-
-#### ~~Installing TapTrack~~
+*To Be Determined.* We are working on providing an Android download option and will update this section when available.
 
 ### iOS
-This is the more complicated platform to get access to. Setup for this platform includes 2 steps to gain access to the application as well as one additional piece of user information.
 
-#### Joining the beta
-1. User must join the Apple Organization for Lazy Day
-    1. This requires the email associated with a valid Apple account
-    2. To do this, an email invitation will be sent to the provided email
-2. User must then accept a second invitation to join the tester group for TapTrack
+The iOS installation process requires two steps: joining the Lazy Day Apple Organization and accepting a TestFlight invitation.
 
-#### Installing TapTrack
-1. Install **[TestFlight](https://apps.apple.com/ca/app/testflight/id899247664)** from the App Store
-    1. [TestFlight](https://testflight.apple.com/) is the official method of accessing and managing beta applications on Apple Devices
-    2. It is essentially the official app store of beta applications
-2. TapTrack should automatically appear as an option for installation 
-    1. If you do not see this, ensure that you are signed in
+1. **Join the Lazy Day Apple Organization:**
+    - An email invitation will be sent to your provided Apple ID email address.  Accept this invitation.
+2. **Accept TapTrack Tester Invitation:**
+    - After joining the organization, you'll receive a second invitation to join the TapTrack tester group via TestFlight. Accept this invitation.
+
+**Installing via TestFlight:**
+
+1. Install **[TestFlight](https://apps.apple.com/ca/app/testflight/id899247664)** from the App Store if you haven't already.  [TestFlight](https://testflight.apple.com/) is Apple’s official beta app management platform.
+2. Open TestFlight and TapTrack should appear as an available application. If it doesn't, ensure you are signed in with the correct Apple ID.
+
+## Using TapTrack Modules
+
+### Check-In/Check-Out Module
+
+This module manages customer booking states.  Booking records include:
+
+*   Name on file
+*   Phone Number on file
+*   Booking Status
+*   Booking Date and Time
+*   List of rentals associated with the booking
+*   Waivers
+*   Booking Notes
+*   Start Time (actual check-in time)
+*   End Time
+*   Float Time (duration between check-in and check-out)
+*   Flags
+*   Check-In UUIDs (NFC tag IDs scanned during check-in)
+*   Check-Out UUIDs (NFC tag IDs scanned during check-out)
+*   List of Raft Numbers associated with the booking (resolved from Check-In UUIDs)
+
+**Key Features:**
+
+*   **NFC Scanning:** Automates booking lookup during check-out by scanning NFC tags attached to rafts.
+*   **Manual Search:**  Search for bookings using Name, Phone Number, Booking Status, Date (Today, Yesterday), and Rental Type if NFC is unavailable. *Custom Date search is planned for a future release.*
+*   **QR Lookup:** Scan FareHarbor QR codes during check-in to retrieve booking records.
+
+### Repair Module
+
+This module manages raft inventory status and repair history.  Repair records are created for rafts needing service before returning to inventory, with a complete log maintained for each raft.
+
+**Repair Record Details:**
+
+*   Raft Type (e.g., "6 Person Raft")
+*   Raft Number
+*   Record Creation Date
+*   Record Resolution Date
+*   User who created the record
+*   User who resolved the record
+*   User assigned to the record
+*   Repair Notes
+*   Repair Status
+
+**Modes:**
+
+*   **Add Record:** Create a new repair record.
+*   **Search:** Manually search for a raft's repair history by raft number.
+*   **NFC:** Search for repair history using the raft’s NFC tag.
+*   **In-Repair:** List of all currently active repair records.
+*   **History:**  List of all repair records, sorted by date.
+*   **Assigned:** List of repair records assigned to your account.
+
+### Reporting Module
+
+This module displays statistics for today's bookings.
+
+**Pages:**
+
+1.  **Status and Rental:**
+    *   Counters of rafts by rental type and status.
+    *   Total number of combined rentals booked for the current day.
+    *   Total availability of each rental type (rafts - in repair).
+    *   Total bookings in each state.
+    *   Average float time (Today, Yesterday, Percentage Difference).
+    *   Search/access booking records based on these filters.
+
+2.  **Hourly Report:**
+    *   Displays the number of each rental type scheduled for departure each hour.
+    *   Search/access booking records based on these filters.
+
+### Shuttle Management Module
+
+This module quickly locates essential information for managing the shuttle.
+
+**Pages:**
+
+1.  **Scan:** Lookup records using FareHarbor QR codes.
+2.  **Manual:** Search for bookings with active shuttle seats associated for the current day.
+3.  **Shuttle Report:** Displays bookings with shuttle seats, showing:
+    *   Last Name
+    *   Number of Shuttle Seats Associated
+    *   Number of Shuttle Seats Booked per Hour
+    *   Name on file
+    *   Booking time
+    *   Number of shuttle seats associated with booking
+
+## Customer Acknowledgement
+
+If a booking includes a BowYak, customers must accept an agreement explaining potential water exposure before check-in.  Future development will include storm warnings within this feature.
 
 ## Giving Feedback
-We are open to feedback. Have an idea of a way we can improve the application? Here are some ways to get this information to us:
-- Email: TBD
-- Talk to: TBD
-- Submit feedback in TestFlight
+
+We value your feedback! Please share your ideas for improving TapTrack through the following channels:
+
+*   Email: [TBD]
+*   Contact: [TBD]
+*   Submit feedback directly within TestFlight.
