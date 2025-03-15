@@ -32,4 +32,4 @@ A collection of dialogs used in the Repair Record Creation process.
         - The dialog is styled with a rounded corner shape and dismisses when clicked outside or when the back button is pressed.
 
 ---
-Also see [NewRepairRecordConfirm](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/NewRepairRecordConfirm) for more details on record creation.
+Also see [NewRepairRecordConfirm](https://lazy-day-tech.github.io/TapTrack-User-Reference/UI/Dialogs/NewRepairRecordConfirm) for more details on record creation.

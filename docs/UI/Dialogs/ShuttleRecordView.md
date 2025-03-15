@@ -46,5 +46,5 @@ The **Shuttle Record View** dialog is an interface that provides only essential 
 
 
 ## Other Links
-- [ShuttleManagement](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ShuttleManagement)
-- [ShuttleManualInput](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ShuttleManualInput)
+- [ShuttleManagement](https://lazy-day-tech.github.io/TapTrack-User-Reference/UI/Pages/ShuttleManagement)
+- [ShuttleManualInput](https://lazy-day-tech.github.io/TapTrack-User-Reference/UI/Pages/ShuttleManualInput)

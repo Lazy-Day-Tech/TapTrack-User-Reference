@@ -51,5 +51,5 @@ The **Shuttle Management** feature lets you manage shuttle bookings easily throu
 
 
 ## Other Links
-- [ShuttleManualInput](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ShuttleManualInput)
-- [ShuttleRecordView](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/ShuttleRecordView)
+- [ShuttleManualInput](https://lazy-day-tech.github.io/TapTrack-User-Reference/UI/Pages/ShuttleManualInput)
+- [ShuttleRecordView](https://lazy-day-tech.github.io/TapTrack-User-Reference/UI/Dialogs/ShuttleRecordView)

@@ -22,5 +22,5 @@ Upon initialization or when no records are present, the function fetches booking
 - Bookings with only shuttle seats assigned to their booking will not be displayed
 
 ## Also See:
-1. [ReportLookup](https://lazy-day-tech.github.io/TapTrackDocs/Pages/ReportLookup)
-2. [HourlyReport](https://lazy-day-tech.github.io/TapTrackDocs/Pages/HourlyReport)
+1. [ReportLookup](https://lazy-day-tech.github.io/TapTrack-User-Reference/Pages/ReportLookup)
+2. [HourlyReport](https://lazy-day-tech.github.io/TapTrack-User-Reference/Pages/HourlyReport)

@@ -18,4 +18,4 @@ This dialog is used when a specific customer action or acknowledgment is necessa
 5. Once the user enters in all text boxes, a confirm button will enable at the bottom of the screen
 6. Once confirmed, the confirmation will be logged to the remote booking information and the checkin process can continue 
 
-See [CustomerAcknowlegement](https://lazy-day-tech.github.io/TapTrackDocs/Pages/CustomerAcknowledgement)
+See [CustomerAcknowlegement](https://lazy-day-tech.github.io/TapTrack-User-Reference/Pages/CustomerAcknowledgement)

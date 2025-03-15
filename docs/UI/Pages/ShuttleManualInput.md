@@ -47,5 +47,5 @@ The **Shuttle Manual Input** page is a feature that helps find shuttle bookings 
   
 
 ## Other Links
-- [ShuttleManagement](https://lazy-day-tech.github.io/TapTrackDocs/UI/Pages/ShuttleManagement)
-- [ShuttleRecordView](https://lazy-day-tech.github.io/TapTrackDocs/UI/Dialogs/ShuttleRecordView)
+- [ShuttleManagement](https://lazy-day-tech.github.io/TapTrack-User-Reference/UI/Pages/ShuttleManagement)
+- [ShuttleRecordView](https://lazy-day-tech.github.io/TapTrack-User-Reference/UI/Dialogs/ShuttleRecordView)

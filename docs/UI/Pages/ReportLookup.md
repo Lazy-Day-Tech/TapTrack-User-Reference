@@ -38,5 +38,5 @@ The UI is interactive:
 
 
 ## Also See:
-1. [ReportsV2](https://lazy-day-tech.github.io/TapTrackDocs/Pages/ReportsV2)
-2. [HourlyReport](https://lazy-day-tech.github.io/TapTrackDocs/Pages/HourlyReport)
+1. [ReportsV2](https://lazy-day-tech.github.io/TapTrack-User-Reference/Pages/ReportsV2)
+2. [HourlyReport](https://lazy-day-tech.github.io/TapTrack-User-Reference/Pages/HourlyReport)

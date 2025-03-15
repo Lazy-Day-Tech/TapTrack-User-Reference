@@ -19,5 +19,5 @@ Each hour has a summary of the collective number of rentals to be sent out for e
 Each row of data can be filtered to display the containing records within `ReportLookup`, including totals. This allows for the ability to manage customer booking information directly from the reporting module.
 
 ## Also See:
-1. [ReportLookup](https://lazy-day-tech.github.io/TapTrackDocs/Pages/ReportLookup)
-2. [ReportsV2](https://lazy-day-tech.github.io/TapTrackDocs/Pages/ReportsV2)
+1. [ReportLookup](https://lazy-day-tech.github.io/TapTrack-User-Reference/Pages/ReportLookup)
+2. [ReportsV2](https://lazy-day-tech.github.io/TapTrack-User-Reference/Pages/ReportsV2)
