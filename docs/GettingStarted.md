@@ -6,7 +6,7 @@
 - [Downloading & Installing TapTrack](#downloading--installing-taptrack)
     - [Android](#android)
     - [iOS](#ios)
-- [Using TapTrack Modules](#using-taptrack-modules)
+- [Using TapTrack](#using-taptrack)
     - [Check-In/Check-Out Module](#check-incheckout-module)
     - [Repair Module](#repair-module)
     - [Reporting Module](#reporting-module)
@@ -47,7 +47,12 @@ The iOS installation process requires two steps: joining the Lazy Day Apple Orga
 1. Install **[TestFlight](https://apps.apple.com/ca/app/testflight/id899247664)** from the App Store if you haven't already.  [TestFlight](https://testflight.apple.com/) is Apple’s official beta app management platform.
 2. Open TestFlight and TapTrack should appear as an available application. If it doesn't, ensure you are signed in with the correct Apple ID.
 
-## Using TapTrack Modules
+## Using TapTrack 
+TapTrack is composed of 4 main modules:
+1. Check-In/Check-Out (a.k.a Base) module
+2. Repair Module
+3. Reporting Module
+4. Shuttle Management Module
 
 ### Check-In/Check-Out Module
 
