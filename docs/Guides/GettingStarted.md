@@ -71,13 +71,14 @@ This module manages customer booking states.  Booking records include:
 *   Flags
 *   Check-In UUIDs (NFC tag IDs scanned during check-in)
 *   Check-Out UUIDs (NFC tag IDs scanned during check-out)
-*   List of Raft Numbers associated with the booking (resolved from Check-In UUIDs)
+*   List of Raft Numbers associated with the booking (resolved from Check-In UUIDs or Manual Input)
 
 **Key Features:**
 
 *   **NFC Scanning:** Automates booking lookup during check-out by scanning NFC tags attached to rafts.
 *   **Manual Search:**  Search for bookings using Name, Phone Number, Booking Status, Date (Today, Yesterday), and Rental Type if NFC is unavailable. *Custom Date search is planned for a future release.*
 *   **QR Lookup:** Scan FareHarbor QR codes during check-in to retrieve booking records.
+*   **Manual Booking Update** A manual redundant method of checking rafts in/out using raft numbers
 
 ### Repair Module
 
