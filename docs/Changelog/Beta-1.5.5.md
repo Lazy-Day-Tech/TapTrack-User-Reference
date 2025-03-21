@@ -11,3 +11,8 @@ This release introduces a new feature for manual individual raft check-in/check-
     - Enhanced BookingRecordView UI
 - Fixed a bug preventing step back functionality in new repair record creation
 - Improved username fetching with backend data security
+- Greatly improved Repair Module performance
+    - Integrated with view model
+- Major codebase cleanup
+- Improved logging
+- Improved source documentation 
