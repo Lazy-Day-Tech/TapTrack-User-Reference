@@ -10,7 +10,7 @@ Booking records can be retrieved using the same methods available in the Check-I
 2. Manual Search
 
 ### QR Code
-QR code lookup is available when the customer provides their FareHarbor-associated QR code.
+QR code lookup is available when the customer provides their FareHarbor-associated QR code. This will only pull from bookings that are valid for current date.
 
 ### Manual Search
 Manual search displays booking records for the current date that **include at least one active shuttle seat**. Records can be searched by the organizer's name.

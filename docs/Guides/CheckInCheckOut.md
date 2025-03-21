@@ -9,7 +9,7 @@ Check-In mode offers two options:
 2. Manual Lookup
 
 #### Scan QR
-This option activates a QR code scanner within the application. Only QR codes provided by FareHarbor are supported.
+This option activates a QR code scanner within the application. Only QR codes provided by FareHarbor are supported, and will only pull bookings that are valid for the current date.
 
 ##### FareHarbor QR Codes 
 FareHarbor generates a QR code/URL for each rental item linked to a booking. These QR codes are emailed to customers by FareHarbor near the booking date. Customers can present these QR codes to staff during Check-In to quickly retrieve booking details without a manual search.
