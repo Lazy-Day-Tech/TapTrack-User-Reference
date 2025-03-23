@@ -59,8 +59,7 @@ Within the Check-In mode, if the user is checking in a booking with the followin
 1. Booking contains at least one bowyak 
 2. Storm warning (not yet supported)
 
-If one or more of these conditions is valid for the booking, the application will ask for further confirmation from the customer. The customer must enter "I Agree" in each requred textfield on this page before the check-in process can continue. 
-
+If one or more of these conditions is valid for the booking, the application will ask for further confirmation from the customer. The customer must enter "I Agree" in each required textfield on this page before the check-in process can continue.
 ## Options
 Within each booking record, some additional information can be provided or gained based on user contribution. 
  
@@ -72,11 +71,9 @@ Flags can be assigned to bookings to provide some discrete information on the st
     - This flag is intended to be activated if the user checking the booking in or out has any issues with the group due to intoxication
 
 ### Booking Notes
-Each booking can contain its own set of notes. Users with required permissions may modify this feild as needed.
-
+Each booking can contain its own set of notes. Users with required permissions may modify this field as needed.
 ### Override
-The override option provides additional redundancy. If there is a large corporate booking, or there is an issue registering rafts through the normal workflow, the override option can be used by those with the required permissions to bypass all raft counters and potential customer acknowledgmement warnings. This approach however loses some data in the process, as raft numbers/NFC ID's will not be logged to the booking record, which also results in the inability to look up the booking record using NFC. 
-
+The override option provides additional redundancy. If there is a large corporate booking, or there is an issue registering rafts through the normal workflow, the override option can be used by those with the required permissions to bypass all raft counters and potential customer acknowledgment warnings. This approach however loses some data in the process, as raft numbers/NFC ID's will not be logged to the booking record, which also results in the inability to look up the booking record using NFC.
 ## NFC
 Each raft is stored in a table called `RaftMap`. This table will store the raft number, raft type, and `NFC UUID` associated with the raft. 
 
