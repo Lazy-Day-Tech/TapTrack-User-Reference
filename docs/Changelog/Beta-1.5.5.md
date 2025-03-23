@@ -10,6 +10,8 @@ This release introduces a new feature for manual individual raft check-in/check-
     - Updated counter logic in BookingRecordView to support both manual and automatic modes
     - Enhanced BookingRecordView UI
 - Fixed a bug preventing step back functionality in new repair record creation
+- Greatly improved BookingRecordView support for small screen sizes
+- Fixed overlapping flag-button row for large bookings
 - Improved username fetching with backend data security
 - Greatly improved Repair Module performance
     - Integrated with view model

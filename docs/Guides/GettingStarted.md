@@ -13,6 +13,7 @@
     - [Shuttle Management Module](#shuttle-management-module)
 - [Customer Acknowledgement](#customer-acknowledgement)
 - [Giving Feedback](#giving-feedback)
+- [Additional Reading](#additional-reading)
 
 ## What is TapTrack?
 
@@ -150,3 +151,10 @@ We value your feedback! Please share your ideas for improving TapTrack through t
 *   Email: [TBD]
 *   Contact: [TBD]
 *   Submit feedback directly within TestFlight.
+
+## Additional Reading
+Additional guides:
+  - [Check-In/Check-Out Operations](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/CheckInCheckOut)
+  - [Repair Management](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/RepairManagement)
+  - [Shuttle Management](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/ShuttleManagement)
+  - [Reporting](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/Reporting)
