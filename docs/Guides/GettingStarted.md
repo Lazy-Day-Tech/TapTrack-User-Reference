@@ -146,11 +146,11 @@ If a booking includes a BowYak, customers must accept an agreement explaining po
 
 ## Giving Feedback
 
-We value your feedback! Please share your ideas for improving TapTrack through the following channels:
+We value your feedback! Please share your ideas for improving TapTrack through the bug report/feedback form.
 
+*   [Submit Bug Report or Feedback](https://forms.gle/1c7rD3p2KsoXTtsU7)
 *   Email: [TBD]
 *   Contact: [TBD]
-*   Submit feedback directly within TestFlight.
 
 ## Additional Reading
 Additional guides:
