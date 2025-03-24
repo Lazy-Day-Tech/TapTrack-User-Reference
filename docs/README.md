@@ -8,7 +8,12 @@
 
 ## Directory:
 Access other pages of documentation from here
-- [Getting Started](https://lazy-day-tech.github.io/TapTrack-User-Reference/GettingStarted)
+- Guides
+  - [Getting Started](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/GettingStarted)
+  - [Check-In/Check-Out Operations](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/CheckInCheckOut)
+  - [Repair Management](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/RepairManagement)
+  - [Shuttle Management](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/ShuttleManagement)
+  - [Reporting](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/Reporting)
 - [Terms and Conditions](https://lazy-day-tech.github.io/TapTrack-User-Reference/Legal/tos)
 - [Privacy Policy](https://lazy-day-tech.github.io/TapTrack-User-Reference/Legal/PrivacyPolicy)
 - API 

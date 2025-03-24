@@ -13,6 +13,7 @@
     - [Shuttle Management Module](#shuttle-management-module)
 - [Customer Acknowledgement](#customer-acknowledgement)
 - [Giving Feedback](#giving-feedback)
+- [Additional Reading](#additional-reading)
 
 ## What is TapTrack?
 
@@ -71,13 +72,14 @@ This module manages customer booking states.  Booking records include:
 *   Flags
 *   Check-In UUIDs (NFC tag IDs scanned during check-in)
 *   Check-Out UUIDs (NFC tag IDs scanned during check-out)
-*   List of Raft Numbers associated with the booking (resolved from Check-In UUIDs)
+*   List of Raft Numbers associated with the booking (resolved from Check-In UUIDs or Manual Input)
 
 **Key Features:**
 
 *   **NFC Scanning:** Automates booking lookup during check-out by scanning NFC tags attached to rafts.
 *   **Manual Search:**  Search for bookings using Name, Phone Number, Booking Status, Date (Today, Yesterday), and Rental Type if NFC is unavailable. *Custom Date search is planned for a future release.*
 *   **QR Lookup:** Scan FareHarbor QR codes during check-in to retrieve booking records.
+*   **Manual Booking Update** A manual redundant method of checking rafts in/out using raft numbers
 
 ### Repair Module
 
@@ -144,8 +146,15 @@ If a booking includes a BowYak, customers must accept an agreement explaining po
 
 ## Giving Feedback
 
-We value your feedback! Please share your ideas for improving TapTrack through the following channels:
+We value your feedback! Please share your ideas for improving TapTrack through the bug report/feedback form.
 
+*   [Submit Bug Report or Feedback](https://forms.gle/1c7rD3p2KsoXTtsU7)
 *   Email: [TBD]
 *   Contact: [TBD]
-*   Submit feedback directly within TestFlight.
+
+## Additional Reading
+Additional guides:
+  - [Check-In/Check-Out Operations](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/CheckInCheckOut)
+  - [Repair Management](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/RepairManagement)
+  - [Shuttle Management](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/ShuttleManagement)
+  - [Reporting](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/Reporting)
