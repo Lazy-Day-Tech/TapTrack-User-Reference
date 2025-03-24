@@ -10,6 +10,9 @@ This release introduces a new feature for manual individual raft check-in/check-
     - Updated counter logic in BookingRecordView to support both manual and automatic modes
     - Enhanced BookingRecordView UI
 - Fixed a bug preventing step back functionality in new repair record creation
+- Fixed bug where Shuttle Seats were still being displayed in `ReportLookupPage` as rentals
+- Fixed bug where records would not be distinct in `ReportLookupPage` if navigated to from `HourlyReport`
+- Added support for `duplicateRentalHandler()` in `ReportLookupPage`
 - Greatly improved BookingRecordView support for small screen sizes
 - Fixed overlapping flag-button row for large bookings
 - Improved username fetching with backend data security
@@ -18,3 +21,5 @@ This release introduces a new feature for manual individual raft check-in/check-
 - Major codebase cleanup
 - Improved logging
 - Improved source documentation 
+- Fixed all minor IDE warnings
+- Improved automatic issue labels action 

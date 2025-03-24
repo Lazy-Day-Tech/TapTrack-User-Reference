@@ -8,6 +8,9 @@ Check-In mode offers two options:
 1. Scan QR
 2. Manual Lookup
 
+<img src="../Assets/CheckInFramed.png" alt="Alt text" width="250">
+
+
 #### Scan QR
 This option activates a QR code scanner within the application. Only QR codes provided by FareHarbor are supported, and will only pull bookings that are valid for the current date.
 

@@ -9,6 +9,8 @@ Booking records can be retrieved using the same methods available in the Check-I
 1. QR Code
 2. Manual Search
 
+<img src="../Assets/ShuttleManagementFramed.png" alt="Alt text" width="250">
+
 ### QR Code
 QR code lookup is available when the customer provides their FareHarbor-associated QR code. This will only pull from bookings that are valid for current date.
 
@@ -29,6 +31,8 @@ The shuttle report displays the following booking information:
 2. Last name of organizer
 3. Number of shuttle seats associated with the booking
 4. Number of shuttle seats associated with the whole hour
+
+<img src="../Assets/ShuttleReportFramed.png" alt="Alt text" width="250">
 
 > Each hour within the report page can also be collapsed to refine only important information
 
