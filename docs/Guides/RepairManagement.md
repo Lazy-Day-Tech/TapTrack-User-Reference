@@ -58,6 +58,8 @@ Creating a repair record involves the following steps:
 
 > Once a repair record is created, the raft number and type cannot be modified.
 
+![Flowchart](/docs/Assets/NewRepairRecordFlowchart.png)
+
 ## Managing a Repair Record
 After a repair record is created, the following fields can be updated (if the user has the required permissions):
 1. Repair Notes
