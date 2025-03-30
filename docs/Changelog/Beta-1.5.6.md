@@ -4,7 +4,7 @@ This release is focused on small tweaks and bug fixes
 ## What's New:
 - Users can now use a combination of NFC and Manual Input during the Check-In/Check-Out
 - Fixed major bug in Manual Check-Out logic preventing it from working as intended (This did not apply to checkin)
-- Fixed bug with New Repair Record Creation where a failed NFC scan wasnt properly initiating navigation to D2
+- Fixed bug with New Repair Record Creation where a failed NFC scan wasn't properly initiating navigation to D2
 - Added proper debugging logs for the checkin/checkout processes to make fixes easier later on
 - Fixed bug preventing refreshed booking items from being displayed in shuttle reports
 - Dropdown columns in ReportByHour will now be initiated collapsed
