@@ -64,6 +64,7 @@ Access other pages of documentation from here
     - [Beta-1.5.3](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/Beta-1.5.3)
     - [Beta-1.5.4](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/Beta-1.5.4)
     - [Beta-1.5.5](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/Beta-1.5.5)
+    - [Beta-1.5.6](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/Beta-1.5.6)
 
 ---
 

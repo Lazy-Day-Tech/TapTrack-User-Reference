@@ -39,6 +39,8 @@ The process of adding a new repair record involves multiple steps, each managed 
 - `NewRepairRecordD4`: Collects the repair notes.
 - `NewRepairRecordConfirm`: Confirms the creation of the new repair record.
 
+![Flowchart](/docs/Assets/NewRepairRecordFlowchart.png)
+
 ### Searching for Repair Records
 
 - Users can search for specific repair records by raft number, NFC, or assigned values
