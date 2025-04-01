@@ -6,3 +6,6 @@
     - New ShuttleReportV2
         - No longer uses static times and is now fully dynamic based on earliest and latest booking of each day
         - Only displays non-empty hours
+- Determined minimum Android device requirements
+    - SDK 28 (Android 9.0)
+    - NFC Module

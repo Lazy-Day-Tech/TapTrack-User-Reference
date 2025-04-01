@@ -83,7 +83,7 @@ Requires internet access and a valid user record with permissions/role.
 ### Android
 #### Compatability
 Requires:
-- Minimum SDK: `28`
+- Minimum SDK: `28` (`Android 9.0`)
 - Features: `NFC Reader`
 
 #### Permissions
