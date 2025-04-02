@@ -9,3 +9,9 @@
 - Determined minimum Android device requirements
     - SDK 28 (Android 9.0)
     - NFC Module
+- Upgraded Dependancies:
+    - Navigation-Compose
+    - Kermit
+    - Kotlinx-Datetime
+    - QR-Kit
+    - KTor
