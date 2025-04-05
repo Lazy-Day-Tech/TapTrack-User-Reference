@@ -10,12 +10,15 @@ This release focuses on adding Android Support as well as the new Dynamic Shuttl
         - Removed feature requirements give additional device support as NFC is no longer a requirement to operate the applicaiton
         - Google play closed testing
   - Added Version Management to LoginPage and ModeSelectionPage to make it easier manage which version is installed
+  - Icons in RepairMenu are now dynamically sized for better device support
+  - Improved styling in ModeSelectionPage
 - **Fixes**:
   - Fixed Shuttle Report datetime varying timezone support
     - New ShuttleReportV2
       - No longer uses static times and is now fully dynamic based on earliest and latest booking of each day
         - Only displays non-empty hours
     - Fixed a bug causing base Shuttle Management page button row to overlap with system bar
+    - Fixed Icon-Label overlap in RepairMenu navigation bar on some devices
     - Improved sizing of waiver display text in BookingRecordView to be more consistent
 - Determined minimum Android device requirements
   - SDK 28 (Android 9.0)
