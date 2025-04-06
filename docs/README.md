@@ -65,6 +65,7 @@ Access other pages of documentation from here
     - [Beta-1.5.4](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/Beta-1.5.4)
     - [Beta-1.5.5](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/Beta-1.5.5)
     - [Beta-1.5.6](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/Beta-1.5.6)
+    - [Beta-1.5.7](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/Beta-1.5.7)
 
 ---
 
@@ -76,10 +77,16 @@ Access other pages of documentation from here
 
 ---
 
-## Device Permissions
+## Device Support & Permissions
 Requires internet access and a valid user record with permissions/role.
 
 ### Android
+#### Compatability
+Requires:
+- Minimum SDK: `28` (`Android 9.0`)
+- Features: `NFC Reader`
+
+#### Permissions
 1. NFC Reader
     - For Booking/Repair Lookup and Management
     1. `TAG_DISCOVERED`
@@ -90,6 +97,9 @@ Requires internet access and a valid user record with permissions/role.
 
 
 ### iOS
+#### Compatability
+Requires iOS version **15.5** or later
+#### Permissions
 1. NFC Reader
     - For Booking/Repair Lookup and Management
 2. Camera
