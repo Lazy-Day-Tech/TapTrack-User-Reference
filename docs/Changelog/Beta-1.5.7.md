@@ -25,6 +25,8 @@ This release focuses on adding Android Support as well as the new Dynamic Shuttl
     - Fixed Icon-Label overlap in RepairMenu navigation bar on some devices
     - Improved sizing of waiver display text in BookingRecordView to be more consistent
     - Added padding to ManualInput to prevent overlap with system bar on Android devices
+    - `RaftNumbersToRaftList` can now retuen a nullable list for not found raft numbers
+    - Fixed warnings and removed temporary suppresions
 - Determined minimum Android device requirements
   - SDK 28 (Android 9.0)
 - Upgraded Dependancies
