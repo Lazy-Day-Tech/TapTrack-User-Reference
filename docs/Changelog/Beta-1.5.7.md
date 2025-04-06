@@ -12,6 +12,10 @@ This release focuses on adding Android Support as well as the new Dynamic Shuttl
   - Added Version Management to LoginPage and ModeSelectionPage to make it easier manage which version is installed
   - Icons in RepairMenu are now dynamically sized for better device support
   - Improved styling in ModeSelectionPage
+  - Improved efficiency of filter logic across Shuttle Management Module and BookingRecordView
+  - Added pagination support to `fetchUserRoles()` allowing over 100 roles to exist
+  - Improved filtering logic in `ReportLookupPage` and `ManualInputV2`
+  - Added "Unknown" rental when no registered rental items are known for rentals, but rentals are associated in `BookingRecordView` and `ManualInputV2`
 - **Fixes**:
   - Fixed Shuttle Report datetime varying timezone support
     - New ShuttleReportV2
@@ -20,6 +24,9 @@ This release focuses on adding Android Support as well as the new Dynamic Shuttl
     - Fixed a bug causing base Shuttle Management page button row to overlap with system bar
     - Fixed Icon-Label overlap in RepairMenu navigation bar on some devices
     - Improved sizing of waiver display text in BookingRecordView to be more consistent
+    - Added padding to ManualInput to prevent overlap with system bar on Android devices
 - Determined minimum Android device requirements
   - SDK 28 (Android 9.0)
 - Upgraded Dependancies
+- Improved source documention
+- Additional Unit Tests
