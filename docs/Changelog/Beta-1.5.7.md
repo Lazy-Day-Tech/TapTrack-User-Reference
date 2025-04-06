@@ -27,8 +27,9 @@ This release focuses on adding Android Support as well as the new Dynamic Shuttl
     - Added padding to ManualInput to prevent overlap with system bar on Android devices
     - `RaftNumbersToRaftList` can now retuen a nullable list for not found raft numbers
     - Fixed warnings and removed temporary suppresions
+    - Fixed some grammar of function/variables
 - Determined minimum Android device requirements
   - SDK 28 (Android 9.0)
-- Upgraded Dependancies
+- Upgraded Several Dependancies
 - Improved source documention
 - Additional Unit Tests
