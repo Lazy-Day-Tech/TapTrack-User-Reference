@@ -65,14 +65,15 @@ Access other pages of documentation from here
     - [Beta-1.5.4](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/Beta-1.5.4)
     - [Beta-1.5.5](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/Beta-1.5.5)
     - [Beta-1.5.6](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/Beta-1.5.6)
-    - [Beta-1.5.7](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/Beta-1.5.7)
+    - [1.5.7](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/1.5.7)
+    - [1.5.8](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/1.5.8)
 
 ---
 
 ![badge-android](http://img.shields.io/badge/platform-android-3DDC84.svg?style=flat)
 ![badge-ios](http://img.shields.io/badge/platform-ios-FF375F.svg?style=flat)
 
-[![Kotlin](https://img.shields.io/badge/kotlin-v2.1.0-blue.svg?logo=kotlin)](http://kotlinlang.org)
+[![Kotlin](https://img.shields.io/badge/kotlin-v2.1.20-blue.svg?logo=kotlin)](http://kotlinlang.org)
 [![Compose Multiplatform](https://img.shields.io/badge/Compose%20Multiplatform-v1.7.3-blue)](https://github.com/JetBrains/compose-multiplatform)
 
 ---
