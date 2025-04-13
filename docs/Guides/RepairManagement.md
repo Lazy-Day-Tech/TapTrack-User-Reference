@@ -69,6 +69,8 @@ After a repair record is created, the following fields can be updated (if the us
 
 > Once a repair record is marked as resolved, it becomes unmodifiable. Any further changes require creating a new repair record.
 
+> Once a change is made to an existing record. It will send the change to the backend and update the local viewmodel with the new change, removing the need to make additional API requests to sync data. 
+
 ### Assigning Repairs
 After a user logs into the application for the first time, their display name becomes available for selection in the "Assign To" field of repair records. This assignment links the record to the user and makes it visible in their "Assigned" tab.
 

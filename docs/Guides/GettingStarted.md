@@ -48,6 +48,9 @@ The iOS installation process requires two steps: joining the Lazy Day Apple Orga
 1. Install **[TestFlight](https://apps.apple.com/ca/app/testflight/id899247664)** from the App Store if you haven't already.  [TestFlight](https://testflight.apple.com/) is Apple’s official beta app management platform.
 2. Open TestFlight and TapTrack should appear as an available application. If it doesn't, ensure you are signed in with the correct Apple ID.
 
+## Authentication 
+TapTrack currently relies on Google Authentication. This means that a valid google account is required to access the application. Before first time authentication, your associated email must first be added to the ACL list.  
+
 ## Using TapTrack 
 TapTrack is composed of 4 main modules:
 1. Check-In/Check-Out (a.k.a Base) module
