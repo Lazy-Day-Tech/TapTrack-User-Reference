@@ -39,6 +39,7 @@ The following permissions can be assigned to roles:
 | `repair.update` | Update repair records |
 |  `shuttle.reports` | View reports in Shuttle Management module | 
 | `reports.floattime.view` | View advanced floattime information within the reporting module. Requires additional API call to calculate |
+| `reports.history.view` | Access to view report history | 
 
 ### Role-to-Permission Mapping
 
@@ -74,6 +75,7 @@ The following table maps roles to permissions:
 | `repair.update`            | ❌                  | ❌             | ✅           |
 | `shuttle.reports`          | ❌                  | ❌             | ✅           |
 | `reports.floattime.view`| ❌ | ❌ | ✅ |
+| `reports.history.view` | ❌ | ❌ | ✅ |
 
 ## Local Permission Management
 
