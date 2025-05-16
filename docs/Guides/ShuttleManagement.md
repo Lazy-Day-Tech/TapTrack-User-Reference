@@ -23,6 +23,11 @@ Only essential bare bones information is provided about the booking including:
 2. Booking Date & Time
 3. Number of shuttle seats associated with booking
 
+## Shuttle Checkin
+When viewing a shuttle record through either QR or Manual Lookup, Users with the `shuttle.checkin` permission are able to manage the number of shuttle seats to check in per booking. Users cannot check in more shuttle seats than are defined, and cannot reduce checked in seats once confirmed. 
+
+<img src="../Assets/shuttlecheckinframed.png" alt="Alt text" width="250">
+
 ## Shuttle Report
 Within the shuttle management module, there is also a Report view. This page will display all bookings for the current day with at least one shuttle seat associated with the account. This report displays these bookings per whole hour based on their Booking Date & Time
 

@@ -76,6 +76,7 @@ The following table maps roles to permissions:
 | `shuttle.reports`          | ❌                  | ❌             | ✅           |
 | `reports.floattime.view`| ❌ | ❌ | ✅ |
 | `reports.history.view` | ❌ | ❌ | ✅ |
+| `shuttle.checkin` | ✅ | ✅ | ✅ |
 
 ## Local Permission Management
 
