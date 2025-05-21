@@ -32,3 +32,14 @@ Within the reporting module, the user can select any chip in the first report (o
 
 ## Managing Records
 Within the report selection, booking records can be viewed and managed like normal, and can even check rafts in/out as if in its respective mode. This behaviour is automated based on the status of the booking.
+
+## Report History
+The report history function consists of two seperate pages. The inital page allows a user with the `reports.history.view` permission to select between two seperate datetime based filters. 
+1. Week
+    - Displays report history for the past week
+2. Month
+    - Displays report history for the calandar month
+
+<img src="../Assets/ReportHistoryMultipleFramed.png" alt="Alt text" width="500">
+
+> Averages are based on selected views
