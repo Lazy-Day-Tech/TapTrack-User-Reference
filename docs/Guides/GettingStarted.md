@@ -1,12 +1,12 @@
-# Getting Started with TapTrack
+# Getting Started with TagTrax
 
 ## Table of Contents
-- [What is TapTrack](#what-is-taptrack)
+- [What is TagTrax](#what-is-TagTrax)
 - [Getting Access](#getting-access)
-- [Downloading & Installing TapTrack](#downloading--installing-taptrack)
+- [Downloading & Installing TagTrax](#downloading--installing-TagTrax)
     - [Android](#android)
     - [iOS](#ios)
-- [Using TapTrack](#using-taptrack)
+- [Using TagTrax](#using-TagTrax)
     - [Check-In/Check-Out Module](#check-incheckout-module)
     - [Repair Module](#repair-module)
     - [Reporting Module](#reporting-module)
@@ -15,24 +15,28 @@
 - [Giving Feedback](#giving-feedback)
 - [Additional Reading](#additional-reading)
 
-## What is TapTrack?
+## What is TagTrax?
 
-TapTrack simplifies the management of raft bookings and inventory. It streamlines tasks like check-in/check-out, raft repairs, reporting, and shuttle management.  It's designed to improve efficiency and accuracy in day to day operations.
+TagTrax simplifies the management of raft bookings and inventory. It streamlines tasks like check-in/check-out, raft repairs, reporting, and shuttle management.  It's designed to improve efficiency and accuracy in day to day operations.
 
 ## Getting Access
 
-To access TapTrack, you will need:
+To access TagTrax, you will need:
 
 1. **Valid Google email address:** Used for authentication within the application.
 2. **Apple associated email address (Optional):** Required if installing on a personal Apple device.  Provide this when requesting iOS beta access.
 
-## Downloading & Installing TapTrack
+## Downloading & Installing TagTrax
 
 Currently, due to complications with getting internal applications approved on the open app stores, the application is only available for download from a beta stream that may take additional steps to get access to.
 
 ### Android
 
-*To Be Determined.* We are working on providing an Android download option and will update this section when available.
+1. You will receive an email invitation at the Google account email address you provided.
+2. Open the invitation email and click on the "Join the Test" or similar link provided.
+3. Once you have accepted the invitation, you can install the application directly from the invitation page (Easiest), or by searching for TagTrax in Google play
+
+> Note: Make sure you are signed into the correct Google account associated with your invitation.
 
 ### iOS
 
@@ -40,19 +44,19 @@ The iOS installation process requires two steps: joining the Lazy Day Apple Orga
 
 1. **Join the Lazy Day Apple Organization:**
     - An email invitation will be sent to your provided Apple ID email address.  Accept this invitation.
-2. **Accept TapTrack Tester Invitation:**
-    - After joining the organization, you'll receive a second invitation to join the TapTrack tester group via TestFlight. Accept this invitation.
+2. **Accept TagTrax Tester Invitation:**
+    - After joining the organization, you'll receive a second invitation to join the TagTrax tester group via TestFlight. Accept this invitation.
 
 **Installing via TestFlight:**
 
 1. Install **[TestFlight](https://apps.apple.com/ca/app/testflight/id899247664)** from the App Store if you haven't already.  [TestFlight](https://testflight.apple.com/) is Apple’s official beta app management platform.
-2. Open TestFlight and TapTrack should appear as an available application. If it doesn't, ensure you are signed in with the correct Apple ID.
+2. Open TestFlight and TagTrax should appear as an available application. If it doesn't, ensure you are signed in with the correct Apple ID.
 
 ## Authentication 
-TapTrack currently relies on Google Authentication. This means that a valid google account is required to access the application. Before first time authentication, your associated email must first be added to the ACL list.  
+TagTrax currently relies on Google Authentication. This means that a valid google account is required to access the application. Before first time authentication, your associated email must first be added to the ACL list.  
 
-## Using TapTrack 
-TapTrack is composed of 4 main modules:
+## Using TagTrax 
+TagTrax is composed of 4 main modules:
 1. Check-In/Check-Out (a.k.a Base) module
 2. Repair Module
 3. Reporting Module
@@ -126,10 +130,14 @@ This module displays statistics for today's bookings.
 2.  **Hourly Report:**
     *   Displays the number of each rental type scheduled for departure each hour.
     *   Search/access booking records based on these filters.
+3. **Report History**
+    - Displays a summary of the history of previous reports based on two views:
+        1. Weekly
+        2. Monthly
 
 ### Shuttle Management Module
 
-This module quickly locates essential information for managing the shuttle.
+This module quickly locates essential information for managing the shuttle as well as providing a method to check in shuttle seats.
 
 **Pages:**
 
@@ -149,15 +157,14 @@ If a booking includes a BowYak, customers must accept an agreement explaining po
 
 ## Giving Feedback
 
-We value your feedback! Please share your ideas for improving TapTrack through the bug report/feedback form.
+We value your feedback! Please share your ideas for improving TagTrax through the bug report/feedback form.
 
 *   [Submit Bug Report or Feedback](https://forms.gle/1c7rD3p2KsoXTtsU7)
-*   Email: [TBD]
-*   Contact: [TBD]
+*   Email: evan@evannorman.ca
 
 ## Additional Reading
 Additional guides:
-  - [Check-In/Check-Out Operations](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/CheckInCheckOut)
-  - [Repair Management](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/RepairManagement)
-  - [Shuttle Management](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/ShuttleManagement)
-  - [Reporting](https://lazy-day-tech.github.io/TapTrack-User-Reference/Guides/Reporting)
+  - [Check-In/Check-Out Operations](https://lazy-day-tech.github.io/TagTrax-User-Reference/Guides/CheckInCheckOut)
+  - [Repair Management](https://lazy-day-tech.github.io/TagTrax-User-Reference/Guides/RepairManagement)
+  - [Shuttle Management](https://lazy-day-tech.github.io/TagTrax-User-Reference/Guides/ShuttleManagement)
+  - [Reporting](https://lazy-day-tech.github.io/TagTrax-User-Reference/Guides/Reporting)
