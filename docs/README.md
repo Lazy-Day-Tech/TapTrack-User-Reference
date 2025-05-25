@@ -108,3 +108,11 @@ Requires iOS version **15.5** or later
     - For Booking/Repair Lookup and Management
 2. Camera
     - For QR Code scanning
+
+## Giving Feedback
+
+We value your feedback! Please share your ideas for improving TagTrax through the bug report/feedback form.
+
+*   [Submit Bug Report](https://forms.gle/1c7rD3p2KsoXTtsU7)
+*   [Request a new feature](https://forms.gle/kHMriE2vBbryiEtMA)
+*   Email: evan@evannorman.ca

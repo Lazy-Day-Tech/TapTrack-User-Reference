@@ -159,7 +159,8 @@ If a booking includes a BowYak, customers must accept an agreement explaining po
 
 We value your feedback! Please share your ideas for improving TagTrax through the bug report/feedback form.
 
-*   [Submit Bug Report or Feedback](https://forms.gle/1c7rD3p2KsoXTtsU7)
+*   [Submit Bug Report](https://forms.gle/1c7rD3p2KsoXTtsU7)
+*   [Request a new feature](https://forms.gle/kHMriE2vBbryiEtMA)
 *   Email: evan@evannorman.ca
 
 ## Additional Reading
