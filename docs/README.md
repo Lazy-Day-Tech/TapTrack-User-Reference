@@ -5,6 +5,7 @@
 - [Device Permissions](#device-permissions)
   - [Android](#android)
   - [iOS](#ios)
+- [Giving Feedback](#giving-feedback)
 
 ## Directory:
 Access other pages of documentation from here
