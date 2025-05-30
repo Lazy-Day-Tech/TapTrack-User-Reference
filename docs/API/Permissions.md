@@ -17,11 +17,12 @@ The following permissions can be assigned to roles:
 | `checkin.perform`          | Perform customer check-in workflow                                                                       |
 | `checkout.perform`         | Perform customer check-out workflow                                                                      |
 | `shuttle.perform`          | Perform shuttle operations                                                                               |
+| `shuttle.checkin`          | Check-In Shuttle Seats
 | `booking.notes.modify`     | Modify booking notes                                                                                     |
 | `booking.notes.view`       | View booking notes                                                                                       |
 | `booking.flags.modify`     | Modify booking flags                                                                                     |
 | `booking.flags.view`       | View flags                                                                                               |
-| `booking.override` | Override booking states |
+| `booking.override`         | Override booking states                                                                                  |
 | `repair.create`            | Create a repair record                                                                                   |
 | `repair.view`              | View repair records                                                                                      |
 | `repair.notes.modify`      | Modify repair notes                                                                                      |
@@ -37,7 +38,7 @@ The following permissions can be assigned to roles:
 | `reports.view`             | Access reports                                                                                           |
 | `repair.user.view` | View which users create/resolve repair records |
 | `repair.update` | Update repair records |
-|  `shuttle.reports` | View reports in Shuttle Management module | 
+| `shuttle.reports` | View reports in Shuttle Management module | 
 | `reports.floattime.view` | View advanced floattime information within the reporting module. Requires additional API call to calculate |
 | `reports.history.view` | Access to view report history | 
 
