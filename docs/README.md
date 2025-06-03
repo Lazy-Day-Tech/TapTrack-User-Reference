@@ -75,8 +75,8 @@ Access other pages of documentation from here
 
 ---
 
-![badge-android](http://img.shields.io/badge/platform-android-3DDC84.svg?style=flat)
-![badge-ios](http://img.shields.io/badge/platform-ios-FF375F.svg?style=flat)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
 
 [![Kotlin](https://img.shields.io/badge/kotlin-v2.1.21-blue.svg?logo=kotlin)](http://kotlinlang.org)
 [![Compose Multiplatform](https://img.shields.io/badge/Compose%20Multiplatform-v1.8.1-blue)](https://github.com/JetBrains/compose-multiplatform)
