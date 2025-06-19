@@ -3,6 +3,7 @@
 ## Table of Contents
 - [What is TagTrax](#what-is-TagTrax)
 - [Getting Access](#getting-access)
+    - [Request Access](#request-access)
 - [Downloading & Installing TagTrax](#downloading--installing-TagTrax)
     - [Android](#android)
     - [iOS](#ios)
@@ -25,6 +26,10 @@ To access TagTrax, you will need:
 
 1. **Valid Google email address:** Used for authentication within the application.
 2. **Apple associated email address (Optional):** Required if installing on a personal Apple device.  Provide this when requesting iOS beta access.
+
+### Request Access
+
+To gain access to TagTrax, please complete [the enrollment form](https://forms.gle/DYFaRZ6pYTNkUcxh8). The form submission undergoes human verification, which typically takes 1-3 days for approval. Upon approval, you'll receive an email containing setup instructions and your invitation to the platform.
 
 ## Downloading & Installing TagTrax
 
