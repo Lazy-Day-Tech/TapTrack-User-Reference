@@ -68,6 +68,7 @@ Access other pages of documentation from here
     - [1.6.4](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/1.6.4)
     - [1.6.5](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/1.6.5)
     - [1.6.6](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/1.6.6)
+    - [1.6.7](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/1.6.7)
 
 ---
 
