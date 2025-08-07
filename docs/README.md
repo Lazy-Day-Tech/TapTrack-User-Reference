@@ -69,6 +69,8 @@ Access other pages of documentation from here
     - [1.6.5](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/1.6.5)
     - [1.6.6](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/1.6.6)
     - [1.6.7](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/1.6.7)
+    - 1.6.8
+    - [1.6.9](https://lazy-day-tech.github.io/TapTrack-User-Reference/Changelog/1.6.9)
 
 ---
 
@@ -76,7 +78,7 @@ Access other pages of documentation from here
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
 
 [![Kotlin](https://img.shields.io/badge/kotlin-v2.1.21-blue.svg?logo=kotlin)](http://kotlinlang.org)
-[![Compose Multiplatform](https://img.shields.io/badge/Compose%20Multiplatform-v1.8.1-blue)](https://github.com/JetBrains/compose-multiplatform)
+[![Compose Multiplatform](https://img.shields.io/badge/Compose%20Multiplatform-v1.8.2-blue)](https://github.com/JetBrains/compose-multiplatform)
 
 ---
 
